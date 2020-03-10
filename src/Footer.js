@@ -28,30 +28,35 @@ function Footer() {
                             <p>971 55 2586276</p>
                         </div>
 
-                        <form action="" className="row">
-                            <div className="col-12 col-md-9">
-                                <div className="input-block">
-                                    <input name="nome" id="nome" placeholder="Nome" required />
-                                </div>
+                        <div className="col-12 col-md-9">
+                            <form action="">
+                                <div className="row">
+                                    <div className="col-12 col-md-9">
+                                        <div className="input-block">
+                                            <input name="nome" id="nome" placeholder="Nome" required />
+                                        </div>
 
-                                <div className="input-block">
-                                    <input name="email" id="email" placeholder="E-mail" required />
-                                </div>
+                                        <div className="input-block">
+                                            <input name="email" id="email" placeholder="E-mail" required />
+                                        </div>
 
-                                <div className="input-block">
-                                    <input name="telefone" id="telefone" placeholder="telefone" required />
-                                </div>
+                                        <div className="input-block">
+                                            <input name="telefone" id="telefone" placeholder="telefone" required />
+                                        </div>
 
-                                <div className="input-block">
-                                    <input name="mensagem" id="mensagem" placeholder="mensagem" required />
+                                        <div className="input-block">
+                                            <input name="mensagem" id="mensagem" placeholder="mensagem" required />
+                                        </div>
+                                    </div>
+                                    
+                                    <div className="col-12 col-md-2 button">
+                                        <button className="button-default">Enviar</button>
+                                    </div>
+
                                 </div>
-                            </div>
                             
-                            <div className="col-12 col-md-2 button">
-                                <button className="button-default">Enviar</button>
-                            </div>
-                        
-                        </form>
+                            </form>
+                        </div>
 
                        
                             

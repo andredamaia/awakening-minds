@@ -1,8 +1,8 @@
 .bg-sobre {
-  margin-top: 100px;
+  margin-top: 120px;
   background: url('./assets/bg-home.jpg') center center no-repeat;
-  padding: 50px 0;
-  background-size: 200%;
+  padding: 100px 0 100px;
+  background-size: cover;
 } 
 
 h2 {
@@ -35,8 +35,9 @@ h2.special {
 .red-box {
   background: #E74C3C;
   color:#ffffff;
-  padding: 0 25px ;
+  padding: 25px;
 }
+
 
 .red-box a {
   color: #ffffff;
@@ -46,11 +47,11 @@ h2.special {
 }
 
 .bg-certificados {
-  background: #fff7f0;
   text-align: center;
-  margin: 35px 0 80px;
-  padding: 50px 0;
-
+  margin: 0 0 80px;
+  padding: 100px 0;
+  background: url('./assets/bg-home-2.jpg') center center no-repeat;
+  background-size: cover;
 }
 
 .bg-certificados img {
@@ -82,19 +83,29 @@ h2.special {
 .bg-missao h2 {
   font-size: 45px;
   color: #E74C3C;
-  padding: 35px 40px;
-  margin-left: 100px;
+  /* padding: 35px 40px; */
+  margin: 15px;
 }
 
 .bg-missao p {
   padding: 25px;
   font-size: 22px;
-  border: 1px solid;
-      border-left-width: 1px;
-      border-right-width: 0;
-      border-top-width: 0;
-      border-bottom-width: 0;
-      border-color: gray;
-  margin-left: -215px;
+  border-left: 1px solid gray;
+  /* margin-left: -215px; */
   line-height: 25px;
+  padding-left: 80px;
 }
+
+.img-left {
+  float: left;
+  margin: 0 30px 30px 0;
+  width: 200px;
+}
+
+.img-right {
+  float: right;
+  margin: 30px 0 0 30px;
+  width: 300px;
+}
+
+.add-top { margin-top: 60px; margin-bottom: 20px; }
