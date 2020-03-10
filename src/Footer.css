@@ -2,7 +2,7 @@
 
 
 .bg-contato {
-    background: #E74C3C;
+    background: url('./assets/bg-footer.jpg') center center no-repeat;
 }
 
 .bg-contato h2 {

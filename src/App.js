@@ -5,6 +5,8 @@ import Footer from './Footer';
 import emotions from './assets/emotions.png'
 import flower from './assets/flower.png'
 import yinyang from './assets/yin-yang.png'
+import andressa from './assets/andressa.png'
+import faces from './assets/faces.png'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -23,6 +25,8 @@ function App() {
             <div className="col-12 col-md-6">
               <h2 className="special">Sobre Andressa Mokesinki</h2>
 
+              <img src={andressa} alt="" />
+
               <p><strong>Nascida e criada no Brasil</strong> em uma cidadezinha  do interior do Paraná. Andressa vem de um lar conturbado e desde muito cedo enfrentou inúmeros desafios e responsabilidades.</p>
 
               <p>Os anos passaram, porém as dificuldades não... parecia que brilhava por um curto período e logo em seguida uma nova tempestade vinha e destruía tudo que havia sido construído com tanto esforço. foi somente<strong> após muitas experiências de dor e sofrimento</strong> que Andressa percebeu um padrão repetitivo nos acontecimentos e também nas pessoas a sua volta, e foi então que ela decidiu parar e olhar para dentro. </p>
@@ -36,6 +40,8 @@ function App() {
 
             <div className="col-12 col-md-6">
               <h3>Quais são as técnicas de terapia?</h3>
+
+              <img src={faces} alt="" />
 
               <p>A ciência sugere que<strong> 95% do comportamento humano</strong> deriva do subconsciente e que<strong> apenas 5%</strong> é escolhido conscientemente, assim a impotância da<strong> Hipnose, PNL e da técnica Deixar Ir</strong> para acessar e redefinir padrões gravados e projetados incoscientemente.</p>
 
