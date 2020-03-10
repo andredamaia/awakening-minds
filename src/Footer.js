@@ -29,7 +29,7 @@ function Footer() {
                         </div>
 
                         <form action="" className="row">
-                            <div className="col-12 col-md-6">
+                            <div className="col-12 col-md-9">
                                 <div className="input-block">
                                     <input name="nome" id="nome" placeholder="Nome" required />
                                 </div>
@@ -47,12 +47,13 @@ function Footer() {
                                 </div>
                             </div>
                             
+                            <div className="col-12 col-md-2 button">
+                                <button className="button-default">Enviar</button>
+                            </div>
                         
                         </form>
 
-                        <div className="col-12 col-md-2 button">
-                            <button className="button-default">Enviar</button>
-                        </div>
+                       
                             
 
                         

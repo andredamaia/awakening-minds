@@ -24,9 +24,11 @@ span.title {
     line-height: 20px;
 }
 
+
 form { margin-top: -35px;}
 form input {
-    width: 650px;
+    width: 600px;
+    margin-left: 30px;
     border-radius: 0;
     height: 55px;
     padding: 0;
@@ -40,6 +42,12 @@ form input {
         border-right-width: 0;
         border-top-width: 0;
         border-bottom-width: 2px;
+}
+
+::placeholder {
+    color: #ffffff;
+    font-weight: 200;
+    
 }
 
 .row {
@@ -64,11 +72,12 @@ form input {
     border-radius: 10px;
     color: #ffffff;
     text-transform: uppercase;
-    margin: 100px;
+    margin: 120px 60px;
 }
 
-.bg-contato.endereço {
-    margin-top: -30px;
+.endereço {
+    margin-top: -10px;
+    margin-right: 0px;
     
 }
 
