@@ -1,0 +1,107 @@
+.bg-missao {
+    padding: 50px;
+    margin: 50px;
+}
+
+.bg-missao h2 {
+    font-size: 45px;
+    color: #E74C3C;
+    padding: 35px 40px;
+    margin-left: 100px;
+}
+
+.bg-missao p {
+    padding: 25px;
+    font-size: 22px;
+    border: 1px solid;
+        border-left-width: 1px;
+        border-right-width: 0;
+        border-top-width: 0;
+        border-bottom-width: 0;
+        border-color: gray;
+    margin-left: -215px;
+    line-height: 25px;
+}
+
+
+.bg-contato {
+    background: #E74C3C;
+}
+
+.bg-contato h2 {
+    text-align: center;
+    color: #ffffff;
+    padding: 55px;
+    font-size: 45px;
+}
+
+span.title {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.bg-contato p {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 20px;
+}
+
+form { margin-top: -35px;}
+form input {
+    width: 650px;
+    border-radius: 0;
+    height: 55px;
+    padding: 0;
+    background: none;
+    color: #ffffff;
+    margin-bottom: 5px;
+    text-align: initial;
+    text-transform: uppercase;
+    border: 2px solid ;
+        border-left-width: 0;
+        border-right-width: 0;
+        border-top-width: 0;
+        border-bottom-width: 2px;
+}
+
+.row {
+    margin-top: -15px;
+    margin-left: -51px;
+}
+
+
+
+
+.button-default {
+    background: transparent;
+    padding: 7px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    border-style: solid;
+    border-top-width: 2.3px;
+    border-bottom-width: 2.3px;
+    border-left-width: 2.3px;
+    border-right-width: 2.3px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 100px;
+}
+
+.bg-contato.endereço {
+    margin-top: -30px;
+    
+}
+
+.bg-contato a {
+    padding: 3px;
+}
+
+p.copyright {
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 20px;
+
+}
