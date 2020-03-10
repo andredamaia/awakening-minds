@@ -2,6 +2,10 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 
+import emotions from './assets/emotions.png'
+import flower from './assets/flower.png'
+import yinyang from './assets/yin-yang.png'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './global.css';
@@ -58,19 +62,19 @@ function App() {
             </div>
 
             <div className="col-12 col-md-4 text-icon">
-  
+              <img src={emotions} alt="" />
               <p>Hipnose, programação neurolinguística e percepção temporal pelo Instituto Robert Simic Coaching, em Dubai</p>
 
             </div>
 
             <div className="col-12 col-md-4 text-icon">
-  
+              <img src={flower} alt="" />
               <p>Credenciada em Life & spiritual - Federação Internacional de Coaches</p>
 
             </div>
 
             <div className="col-12 col-md-4 text-icon">
-  
+              <img src={yinyang} alt="" />
               <p>Credenciada em Life spiritual & Coaching pelo International Coaching Federation - ICF (Federação Internacional de Coaches)</p>
 
             </div>
@@ -92,6 +96,20 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div className="bg-missao">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-md-6">
+                            <h2>Missão</h2>
+                        </div>
+
+                        <div className="col-12 col-md-6">
+                            <p><i>Awakening Minds Coaching & Therapy</i> tem a missão de expandir o nível de consciência das pessoas, impactando positivamente suas vidas para que encontrem um caminho <strong>livre de dor e sofrimento.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
       <Footer/>
     </>

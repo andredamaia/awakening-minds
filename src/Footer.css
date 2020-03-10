@@ -1,27 +1,4 @@
-.bg-missao {
-    padding: 50px;
-    margin: 50px;
-}
 
-.bg-missao h2 {
-    font-size: 45px;
-    color: #E74C3C;
-    padding: 35px 40px;
-    margin-left: 100px;
-}
-
-.bg-missao p {
-    padding: 25px;
-    font-size: 22px;
-    border: 1px solid;
-        border-left-width: 1px;
-        border-right-width: 0;
-        border-top-width: 0;
-        border-bottom-width: 0;
-        border-color: gray;
-    margin-left: -215px;
-    line-height: 25px;
-}
 
 
 .bg-contato {

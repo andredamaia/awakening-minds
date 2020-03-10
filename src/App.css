@@ -24,6 +24,9 @@ h2.special {
   padding: 100px;
   font-size: 17px;
   color: gray;
+  margin-right: -160px;
+  margin-left: 80px;
+  margin-top: -45px;
 
 }
 
@@ -49,6 +52,16 @@ h2.special {
 
 }
 
+.bg-certificados img {
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.bg-certificados p {
+  font-size: 19px;
+  line-height: 19px;
+}
+
 .bg-gray {
   background: #535658;
   text-align: center;
@@ -58,4 +71,29 @@ h2.special {
   font-size: 20px;
   font-weight: 300;
   margin-top: -100px;
+}
+
+.bg-missao {
+  padding: 50px;
+  margin: 50px;
+}
+
+.bg-missao h2 {
+  font-size: 45px;
+  color: #E74C3C;
+  padding: 35px 40px;
+  margin-left: 100px;
+}
+
+.bg-missao p {
+  padding: 25px;
+  font-size: 22px;
+  border: 1px solid;
+      border-left-width: 1px;
+      border-right-width: 0;
+      border-top-width: 0;
+      border-bottom-width: 0;
+      border-color: gray;
+  margin-left: -215px;
+  line-height: 25px;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 
+import logo from './assets/logo.png'
 
 function Header(){
     return(
@@ -11,7 +12,7 @@ function Header(){
                         <div className="row">
                             <div className="col-12 col-md-4">
 
-                                
+                                <img src={logo} alt="" />
 
                             </div>
                             

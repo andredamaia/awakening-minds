@@ -1,24 +1,14 @@
 import React from 'react';
 
-import facebook from './assets/facebook.png'
+import iconfacebook from './assets/icon-facebook.png'
+import iconinstagram from './assets/icon-instagram.png'
+import iconwhats from './assets/icon-whats.png'
 
 
 function Footer() {
     return(
         <>
-            <div className="bg-missao">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12 col-md-6">
-                            <h2>Missão</h2>
-                        </div>
-
-                        <div className="col-12 col-md-6">
-                            <p><i>Awakening Minds Coaching & Therapy</i> tem a missão de expandir o nível de consciência das pessoas, impactando positivamente suas vidas para que encontrem um caminho <strong>livre de dor e sofrimento.</strong></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
 
             <div className="bg-contato">
                 <div className="container">
@@ -68,9 +58,9 @@ function Footer() {
                         
 
                         <div className="col-12 text-center">
-                            <a href=""> <img src={facebook} alt="" /></a>
-                            <a href=""> <img src={facebook} alt="" /></a>
-                            <a href=""> <img src={facebook} alt="" /></a>
+                            <a href=""> <img src={iconfacebook} alt="" /></a>
+                            <a href=""> <img src={iconinstagram} alt="" /></a>
+                            <a href=""> <img src={iconwhats} alt="" /></a>
 
                             <p className="copyright">@2020 Cartola. All rights reserved. Terms and condictions. Privacy Policy.</p>
                         </div>

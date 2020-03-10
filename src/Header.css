@@ -7,10 +7,11 @@ header {
 }
 
 ul {
-    padding: 50px 60px;
+    padding: 60px 60px;
     position: relative;
     margin-top: -100px;
     background: #ffffff;
+    
   }
   
   
@@ -24,3 +25,11 @@ ul {
       font-family: 'poppins';
       text-transform: uppercase;
     }
+
+
+.logo img {
+  padding: 50px 30px;
+  position: relative;
+  margin-top: -100px;
+  background: #ffffff;
+}
