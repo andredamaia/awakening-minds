@@ -1,0 +1,39 @@
+.hip-blue {
+    background: url('../assets/bg-hip-1.jpg') left 8px no-repeat;
+    position: relative;
+    height: 75vh;
+    width: 100%;
+}
+
+.hip-rock {
+    padding: 100px;
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    width: 100%;
+}
+.hip-rock p {
+    margin: 100px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.hip-yellow {
+    padding: 100px;
+}
+
+.hip-iceberg {
+    padding: 100px;
+}
+
+.hip-iceberg img {
+    width:35%;
+}
+
+.hip-eye {
+    padding: 100px;
+    background: url('../assets/bg-eye.jpg') center center no-repeat;
+    width: auto;
+}
+
+.hip-white {
+    padding: 100px;
+}
