@@ -7,7 +7,7 @@
 
 h2 {
   font-size: 45px;
-  color: #E74C3C;
+  color: #b0604f;
   padding: 25px 0;
 }
 
@@ -33,7 +33,7 @@ h2.special {
 
 
 .red-box {
-  background: #E74C3C;
+  background: #b0604f;
   color:#ffffff;
   padding: 25px;
 }
@@ -82,7 +82,7 @@ h2.special {
 
 .bg-missao h2 {
   font-size: 45px;
-  color: #E74C3C;
+  color: #b0604f;
   /* padding: 35px 40px; */
   margin: 15px;
 }
