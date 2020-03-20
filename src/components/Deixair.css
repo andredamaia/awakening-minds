@@ -1,0 +1,85 @@
+.bg-beach {
+    background: url('../assets/bg-beach.jpg') center center no-repeat;
+    height: 75vh;
+    width: 100%;
+    position: relative;
+}
+
+.bg-heart {
+    padding: 30px 0;
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    width: 100%;
+    position: relative;
+    height: 45vh;
+}
+
+.bg-heart p {
+    margin: 40px;
+    font-size: 20px;
+    font-weight: 300;
+   
+}
+
+
+
+.bg-heart img {
+    height: 35vh;
+    position: absolute;
+    left: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.bg-spirit {
+    padding: 50px;
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    width: 100%;
+    position: relative;
+    height: 120vh;
+}
+
+.bg-spirit p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.bg-spirit img {
+    margin: auto;
+    max-width: 100%;
+    top: 30px;
+    right: 15px;
+    position: relative;
+}
+
+.left {
+    padding: 30px 0;
+}
+
+.right {
+    padding: 150px 0;
+}
+
+h5 {
+    color: gray;
+    font-size: 38px;
+    margin: 30px 0;
+}
+.bg-spirit p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.bg-spirit p.box-yellow {
+    border: 1px solid;
+        border-radius: 10px;
+        background: #ffff4d;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.bg-spirit p strong {
+    border-bottom: 1px solid;
+}

@@ -1,0 +1,125 @@
+.bg-egito {
+    background: url('../assets/bg-egito.jpg') center top no-repeat;
+    height: 75vh;
+    width: 100%;
+    position: relative;
+}
+
+.felicidade {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    width: 100%;
+    position: relative;
+    height: 46vh;
+    padding: 25px;
+    align-items: center;
+}
+
+.felicidade h2 {
+    line-height: 60px;
+    padding: 45px 0;
+}
+
+span.color-blue {
+    color: blue;
+}
+
+.felicidade p {
+    font-size: 21px;
+}
+
+
+p.end {
+    text-align: end;
+    font-weight: 350;
+    
+}
+
+.grid-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 0 90px;
+    
+}
+
+.grid-col-2 div {
+    border: 1px solid;
+    text-align: center;
+    background: #d0a095;
+    color: transparent;
+    font-size: 21px;
+
+}
+
+.grid-col-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    width: 100%;
+    margin-top: 5px;
+    padding: 0 90px;
+}
+
+.grid-col-1 div {
+    border: 1px solid;
+    text-align: center;
+    background: #d0a095;
+    color: transparent;
+    font-size: 21px;
+}
+
+.grid-col-1 p {color:#b0604f;}
+
+.grid-col-2 p {color:#b0604f;}
+
+
+
+.ir-alem {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    width: 100%;
+    position: relative;
+    height: 30vh;
+    padding: 50px 80px;
+    align-items: center;
+}
+
+.ir-alem p.left,p.right {
+    font-size: 19px;
+    padding: 15px;
+
+}
+
+.bg-andressa {
+    position: relative;
+    height: 77vh;
+    padding: 100px;
+    align-items: center;
+}
+
+.bg-andressa img {
+    width: 110%;
+    position: relative;
+    left:-50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.bg-andressa p {
+    font-size: 25px;
+    position: relative;
+    border: 2px solid;
+    border-radius: 10px;
+    color:#b0604f;
+    background: transparent;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+
+}
+
+
+
+
+
+
