@@ -1,16 +1,169 @@
 .bg-naja {
     background: url('../assets/bg-naja.jpg') center center no-repeat;
-    height: 100vh;
-    max-width: 100%;
+    height: 77vh;
+    width: 100%;
     position: relative;
 }
 
+.bg-chakra {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
 
+.bg-chakra img {
+    width:100%;
+    padding: 80px;
+}
+
+.bg-chakra h2 {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: Open;
+    padding: 105px;
+    text-align: right;
+}
+
+.bg-chakra h2 p {
+    color: gray;
+    text-align: right;
+    line-height: 40px;
+}
+
+.bg-kundalini {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+}
+
+.bg-kundalini h3 {
+    font-size: 45px;
+    color: gray;
+    padding: 30px;
+    text-align: left;
+}
+
+.bg-kundalini p {
+    font-size: 18px;
+}
+
+.bg-kundalini .img-kundalini-1 {
+    right: 0;
+    top: -25px;
+    position: absolute;
+    width: 450px;
+}
+
+.bg-kundalini .img-kundalini-2 {
+    left: 0;
+    bottom: 30px;
+    position: absolute;
+    width: 250px;
+}
+
+.bg-snake {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+}
+
+.bg-snake h3 {
+    font-size: 55px;
+    line-height: 45px;
+    color: gray;
+    padding: 10px;
+}
+
+.bg-snake p {
+    font-size: 18px;
+}
+
+.bg-snake .img-snake-2 {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 350px;
+}
+
+.bg-snake .img-snake-1 {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 200px;
+}
+
+.bg-vitroviano {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    max-width: 100%;
+    position: relative;
+    padding: 30px 0;
+}
+
+img.colored-kundalini {
+    right: 100px;
+    top: 30px;
+    position: absolute;
+    width: 220px;
+}
+
+.bg-vitroviano p {
+    font-size: 18px;
+    padding: 15px;
+}
+
+.vitroviano-box {
+    background: #dbbb6f;
+    padding: 15px 0;
+    
+}
+
+.vitroviano-box p {
+    color: #fff;
+    font-size: 15px;
+}
 
 
 .vitroviano {
     background: url('../assets/vitroviano.jpg') center center no-repeat;
-    height: 40vh;
     width: 100%;
     position: relative;
+    padding: 100px 25px;
+}
+
+.bg-psicodelic {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    max-width: 100%;
+    position: relative;
+    padding: 70px 0;
+}
+
+.img-psicodelic {
+    left: 0;
+    bottom: 130px;
+    position: absolute;
+    width: 400px;
+}
+
+.bg-psicodelic p {
+    font-size: 18px;
+}
+
+.bg-psicodelic h6 {
+    font-size: 40px;
+    color: #fff;
+    padding: 145px 90px;
+    position: absolute;
+    font-family: Open;
+
+}
+
+.psicodelic-box{
+    border: 1px solid ;
+    border-radius: 10px;
+    background: #fed26c;
+    padding: 10px;
+    text-align: center;
 }
