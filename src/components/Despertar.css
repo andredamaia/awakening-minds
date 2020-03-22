@@ -1,0 +1,170 @@
+.bg-meditation {
+    background: url('../assets/bg-meditation.jpg') center center no-repeat;
+    height: 65vh;
+    max-width: 100%;
+    position: relative;
+}
+
+.bg-meditation p {
+    z-index: 10;
+    color: #fff;
+    font-size: 28px;
+    line-height: 30px;
+    padding: 280px 0;
+}
+
+.text-amor {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    height: 38vh;
+    width: 100%;
+    position: relative;
+}
+
+.text-amor h2 {
+    font-size: 30px;
+    color: #b0604f;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.text-amor p {
+    font-size: 18px;
+}
+
+.spiritual-coach {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    height: 85vh;
+    width: 100%;
+    position: relative;
+    padding: 80px;
+}
+
+.spiritual-coach h3 {
+    text-align: center;
+    color: gray;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.spiritual-coach p {
+    font-size: 18px;
+    padding: 15px;
+}
+
+.bg-cave {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    padding: 80px;
+}
+
+.bg-cave img.img-left {
+    float: left;
+    width: 60vh;
+}
+
+.bg-cave h3{
+    font-family: Open;
+    color: gray;
+    font-weight: 540;
+    padding: 15px;
+}
+
+.bg-cave p {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.bg-cave h4 {
+    font-family: Open;
+    color: gray;
+    font-weight: 500;
+    margin-top: -10px;
+    padding-left: 20px;
+}
+
+.sintomas {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    height: 85vh;
+    width: 100%;
+    position: relative;
+    padding: 60px 0;
+}
+
+.sintomas h4 {
+    font-size: 34px;
+    padding: 10px 0;
+}
+
+.sintomas p {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.sintomas ul{
+    list-style-type: none;
+    font-size: 22px;
+    padding: 30px 0;
+    font-family: Open;   
+}
+
+.list-fadiga {
+    color: #b0604f;
+    left: -70px;
+}
+.list-ansiedade {
+    color: #b0604f;
+    text-align: left;  
+}
+
+.bg-lotus {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    height: 56vh;
+    width: 100%;
+    position: relative;
+    padding: 60px 0;
+}
+
+.bg-lotus img {
+    float: left;
+    margin: -36px 0 0 50px;
+    width: 350px;
+}
+
+.bg-lotus p {
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.ferramentas p {
+    font-size: 18px;
+}
+
+p.lotus-box {
+    font-size: 20px;
+    border: 1px solid;
+    background: transparent;
+    color: #b0604f;
+    border-radius: 10px;
+    padding: 10px 5px;
+    text-align: center;  
+}
+
+.bg-black {
+    background: #202020;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.bg-black p {
+    padding-top: 10px;
+    color: #fff;
+}
+
+
+
+
+
+

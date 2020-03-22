@@ -1,0 +1,16 @@
+.bg-naja {
+    background: url('../assets/bg-naja.jpg') center center no-repeat;
+    height: 100vh;
+    max-width: 100%;
+    position: relative;
+}
+
+
+
+
+.vitroviano {
+    background: url('../assets/vitroviano.jpg') center center no-repeat;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+}

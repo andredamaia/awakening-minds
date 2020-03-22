@@ -15,9 +15,10 @@ html, body, #root {
     
 }
 
-P {
-    color: gray;
-}
+P {color: gray;}
+
+h1,h2,h3,h4,h5,h6 {font-family: Open;}
+
 
 .container { max-width: 1440px; }
 
