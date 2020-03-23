@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+    color: #828793;
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+
+p a { color: #828793; text-decoration: underline; }
+p a:hover { color: #828793; }
+
+body, input, submit { font-family: 'Open Sans', sans-serif; }
+
+.container { max-width: 1440px; }
+
+h1 {
+    font-size: 56px;
+    color: #fff;
+    font-family: 'Vidaloka', sans-serif;
+    text-transform: uppercase;
+}
+    .subtitle {
+        font-size: 46px;
+        line-height: 50px;
+        color: #fff;
+        font-family: 'Vidaloka', sans-serif;
+        text-transform: uppercase;
+    }
+
+h2 {
+    font-size: 48px;
+    line-height: 48px;
+    color: #b0604f;
+    font-family: 'Vidaloka', sans-serif;
+}
+    
+h3 {
+    font-family: 'Vidaloka', sans-serif;
+    font-size: 46px;
+    color: #52545a;
+    border-bottom: 2px solid #828693;
+    padding-bottom: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+

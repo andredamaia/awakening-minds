@@ -1,16 +1,16 @@
 .bg-beach {
     background: url('../assets/bg-beach.jpg') center center no-repeat;
-    height: 75vh;
     width: 100%;
     position: relative;
+    padding: 200px 0;
+    background-size: cover;
+    margin-top: 120px;
 }
 
 .bg-heart {
-    padding: 30px 0;
+    padding: 80px 0;
     background: url('../assets/bg-hip-2.jpg') no-repeat;
-    width: 100%;
-    position: relative;
-    height: 45vh;
+    background-size: cover;
 }
 
 .bg-heart p {
@@ -20,6 +20,13 @@
    
 }
 
+.text-highlight {
+    font-size: 38px;
+    line-height: 42px;
+    color: #fff;
+    font-family: 'Vidaloka', sans-serif;
+}
+    .text-highlight span { opacity: .5; font-size: 30px; display: block; }
 
 
 .bg-heart img {
@@ -32,11 +39,9 @@
 }
 
 .bg-spirit {
-    padding: 50px;
+    padding: 80px 0;
     background: url('../assets/bg-hip-2.jpg') no-repeat;
-    width: 100%;
-    position: relative;
-    height: 120vh;
+    background-size: cover;
 }
 
 .bg-spirit p {
@@ -65,19 +70,15 @@ h5 {
     font-size: 38px;
     margin: 30px 0;
 }
-.bg-spirit p {
-    font-size: 18px;
-    margin: 0;
-}
 
-.bg-spirit p.box-yellow {
-    border: 1px solid;
-        border-radius: 10px;
-        background: #ffff4d;
+
+.box-yellow {
+    border: 2px solid #8a8c90;
+    border-radius: 10px;
+    background: #fed26c;
     text-align: center;
-    padding: 5px 0;
-    font-size: 15px;
-    margin: 15px 0;
+    padding: 30px;
+    margin: 30px 0;
 }
 
 .bg-spirit p strong {

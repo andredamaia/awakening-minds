@@ -1,0 +1,111 @@
+.hip-blue {
+    background: url('../assets/bg-hip-1.jpg') fixed no-repeat;
+    padding: 130px 0;
+    margin-top: 130px;
+    background-size: cover;
+}
+
+.hip-rock {
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    width: 100%;
+    position: relative;
+    padding: 80px 0;
+    background-size: cover;
+}
+
+.hip-box {
+    padding: 80px 0;
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.hip-box p {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+span.text-red {
+    font-size: 24px;
+    color: #b0604f;
+    font-weight: 500;
+    padding: 20px;
+    font-family: 'Vidaloka', sans-serif;
+} 
+
+.hip-yellow {
+    padding: 80px 0;
+    background: #daba6d;
+    width: 100%;
+    position: relative;
+}
+
+.hip-yellow p {
+    color: #fff;
+}
+
+.hip-iceberg {
+    padding: 80px 0;
+    background: url('../assets/bg-hip-2.jpg') no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+h4 {
+    font-size: 34px;
+    line-height: 42px;
+    font-style: italic;
+    font-family: italic;
+    color: gray;
+    font-family: 'Vidaloka', sans-serif;
+    margin-bottom: 40px;
+}
+
+.img-iceberg {
+    height: 55vh;
+    position: absolute;
+    right: 0;
+    top: -150px;
+    bottom: 0;
+    margin: auto;
+}
+
+.before-red-box {
+    background: #b0604f;
+    padding: 30px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    margin-bottom: 130px;
+}
+    .before-red-box::before {
+        content: '';
+        height: 100%;
+        background: #b0604f;
+        width: 4000px;
+        position: absolute;
+        right: 100%;
+        top: 0;
+    }
+    .before-red-box p { color: #fff; }
+
+.bg-eye {
+    background: url('../assets/bg-eye.jpg') center center no-repeat;
+    width:100%;
+    background-size: cover;
+    padding: 80px 0;
+}
+    .bg-eye span {
+        font-size: 40px;
+        text-transform: uppercase;
+        line-height: 46px;
+        font-family: 'Vidaloka', sans-serif;
+        color: #fff;
+    }
+
+.hip-white {
+    padding: 80px 0;
+    background: #fdfbf7;
+}

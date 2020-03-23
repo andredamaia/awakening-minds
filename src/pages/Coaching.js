@@ -1,12 +1,12 @@
 import React from 'react';
 
-import bgandressa from '../assets/bg-andressa.jpg'
+import '../styles/Coaching.css';
 
+import bgandressa from '../assets/bg-andressa.jpg'
 
 export default function Coaching() {
   return (
     <>
-
       <div className="bg-egito">
         <div className="container">
           <div className="row">
