@@ -1,0 +1,50 @@
+.bg-blog {
+    background: url(../assets/bg-hip-2.jpg) top center no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    margin-top: 120px;
+}
+
+.bg-blog h2 { margin-bottom: 40px; }
+
+.box-blog {
+    margin-bottom: 60px;
+}
+
+.blog-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 30px;
+}
+    .blog-image img { max-width: 100%; }
+
+.blog-title {
+    font-family: 'Vidaloka', sans-serif;
+    font-size: 36px;
+    color: gray;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.blog-info {
+    color: gray;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.sidebar { padding: 0 60px; text-align: center; }
+.sidebar p { font-size: 17px; line-height: 22px; }
+.sidebar img { margin-bottom: 20px; }
+.sidebar h2 { font-size: 36px; margin-bottom: 10px; }
+
+.link-back { 
+    background: #b0604f; 
+    color: #fff; 
+    font-weight: 600; 
+    display: inline-block;
+    padding: 10px 40px;
+    transition: all .3s ease-in-out;
+}
+    .link-back:hover { opacity: .6; color: #fff; }

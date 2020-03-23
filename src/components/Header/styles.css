@@ -5,7 +5,7 @@ header {
     top: 0;
     left: 0;
     background: #ffffff;
-    padding: 50px 50px 30px;;
+    padding: 30px 50px;
     box-shadow: 0 4px 20px 20px rgba(0,0,0,.2);
     height: 130px;
 }
@@ -35,7 +35,7 @@ header ul {
       top: 10px;
     }
     header li a {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 400;
       letter-spacing: 2px;
       text-decoration: none;
@@ -50,6 +50,8 @@ header ul {
       text-decoration: none;
     }
 
+    header li:hover .list-dropdown { display: block; }
+
 
 .logo img {
   padding: 50px 30px;
@@ -57,3 +59,28 @@ header ul {
   margin-top: -100px;
   background: #ffffff;
 }
+
+.list-dropdown {
+  position: absolute;
+  top: 100%;
+  left: -45px;
+  right: 0;
+  margin: auto;
+  background: #fff;
+  padding: 10px;
+  width: 220px;
+  text-align: center;
+  display: none;
+}
+  .list-dropdown li {
+    display: block;
+    border-bottom: 1px solid #000;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .list-dropdown li::before { display: none; }
+  .list-dropdown li:last-child { margin-bottom: 0; padding-bottom: 0; border: none; }
+  .list-dropdown li a {
+    font-size: 12px;
+  }

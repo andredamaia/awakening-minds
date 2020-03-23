@@ -1,17 +1,14 @@
 .bg-egito {
     background: url('../assets/bg-egito.jpg') center top no-repeat;
-    height: 75vh;
-    width: 100%;
-    position: relative;
+    height: 600px;
+    background-size: cover;
+    margin-top: 120px;
 }
 
 .felicidade {
     background: url('../assets/bg-hip-2.jpg') no-repeat;
-    width: 100%;
-    position: relative;
-    height: 46vh;
-    padding: 25px;
-    align-items: center;
+    padding: 80px 0;
+    background-size: cover;
 }
 
 .felicidade h2 {
@@ -20,13 +17,8 @@
 }
 
 span.color-blue {
-    color: blue;
+    color: #5972c3;
 }
-
-.felicidade p {
-    font-size: 21px;
-}
-
 
 p.end {
     text-align: end;
@@ -39,17 +31,22 @@ p.end {
     grid-template-columns: 1fr 1fr;
     gap: 5px;
     padding: 0 90px;
-    
 }
 
 .grid-col-2 div {
-    border: 1px solid;
     text-align: center;
-    background: #d0a095;
+    background: #efcbb7;
     color: transparent;
-    font-size: 21px;
-
+    font-size: 22px;
+    color: #b0604f;
+    font-family: 'Vidaloka', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
 }
+
+.grid-col-2 p { margin: 0; }
 
 .grid-col-1 {
     display: grid;
@@ -59,13 +56,19 @@ p.end {
     margin-top: 5px;
     padding: 0 90px;
 }
+.grid-col-1 p { margin: 0; }
 
 .grid-col-1 div {
-    border: 1px solid;
     text-align: center;
-    background: #d0a095;
+    background: #efcbb7;
     color: transparent;
-    font-size: 21px;
+    font-size: 22px;
+    color: #b0604f;
+    font-family: 'Vidaloka', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
 }
 
 .grid-col-1 p {color:#b0604f;}
@@ -77,10 +80,8 @@ p.end {
 .ir-alem {
     background: url('../assets/bg-hip-2.jpg') no-repeat;
     width: 100%;
-    position: relative;
-    height: 30vh;
-    padding: 50px 80px;
-    align-items: center;
+    padding: 80px 0;
+    background-size: cover;
 }
 
 .ir-alem p.left,p.right {
@@ -116,6 +117,19 @@ p.end {
     margin: 15px;
     text-align: center;
 
+}
+
+.bg-projetar { padding: 60px 0; }
+
+.border-box {
+    border: 2px solid #b0604f;
+    color: #b0604f;
+    padding: 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Vidaloka', sans-serif;
+    text-align: center;
 }
 
 

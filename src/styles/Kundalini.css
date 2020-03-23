@@ -1,21 +1,25 @@
 .bg-naja {
     background: url('../assets/bg-naja.jpg') center center no-repeat;
     height: 77vh;
-    width: 100%;
-    position: relative;
+    background-size: cover;
 }
 
 .bg-chakra {
     background: url('../assets/bg-hip-2.jpg') no-repeat;
-    height: 50vh;
-    width: 100%;
-    position: relative;
+    padding: 80px 0;
+    background-size: cover;
 }
 
-.bg-chakra img {
-    width:100%;
-    padding: 80px;
+.bg-chakra .depoimento {
+    font-size: 34px;
+    line-height: 44px;
+    color: #b0604f;
+    background: none;
+    text-align: right;
+    padding: 0;
 }
+
+.bg-chakra .author { color: #adb0b7; opacity: 1; font-size: 24px; font-style: italic; }
 
 .bg-chakra h2 {
     font-size: 30px;
@@ -33,16 +37,15 @@
 
 .bg-kundalini {
     background: url('../assets/bg-hip-2.jpg') no-repeat;
-    width: 100%;
+    padding: 80px 0;
+    background-size: cover;
     position: relative;
-    padding: 50px 0;
 }
 
 .bg-kundalini h3 {
-    font-size: 45px;
+    font-size: 70px;
     color: gray;
-    padding: 30px;
-    text-align: left;
+    border: none;
 }
 
 .bg-kundalini p {
@@ -65,16 +68,16 @@
 
 .bg-snake {
     background: url('../assets/bg-hip-2.jpg') no-repeat;
-    width: 100%;
     position: relative;
-    padding: 50px 0;
+    padding: 80px 0;
+    background-size: cover;
 }
 
 .bg-snake h3 {
-    font-size: 55px;
-    line-height: 45px;
+    font-size: 40px;
+    line-height: 44px;
     color: gray;
-    padding: 10px;
+    padding: 0 0 30px;
 }
 
 .bg-snake p {
@@ -97,9 +100,9 @@
 
 .bg-vitroviano {
     background: url('../assets/bg-hip-2.jpg') no-repeat;
-    max-width: 100%;
     position: relative;
-    padding: 30px 0;
+    padding: 80px 0;
+    background-size: cover;
 }
 
 img.colored-kundalini {
@@ -109,35 +112,23 @@ img.colored-kundalini {
     width: 220px;
 }
 
-.bg-vitroviano p {
-    font-size: 18px;
-    padding: 15px;
-}
-
 .vitroviano-box {
     background: #dbbb6f;
-    padding: 15px 0;
-    
+    padding: 30px;
 }
 
 .vitroviano-box p {
     color: #fff;
-    font-size: 15px;
-}
-
-
-.vitroviano {
-    background: url('../assets/vitroviano.jpg') center center no-repeat;
-    width: 100%;
-    position: relative;
-    padding: 100px 25px;
+    font-family: 'Vidaloka', sans-serif;
+    margin: 0;
 }
 
 .bg-psicodelic {
     background: url('../assets/bg-hip-2.jpg') no-repeat;
     max-width: 100%;
     position: relative;
-    padding: 70px 0;
+    padding: 80px 0;
+    background-size: cover;
 }
 
 .img-psicodelic {
@@ -166,4 +157,28 @@ img.colored-kundalini {
     background: #fed26c;
     padding: 10px;
     text-align: center;
+}
+
+.bg-black {
+    background: #262c2b;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.bg-black p {
+    padding-top: 10px;
+    color: #fff;
+}
+
+.bg-homem {
+    background: url('../assets/vitroviano.jpg') center center no-repeat;
+    padding: 80px 0;
+    background-size: cover;
+}
+
+.text-highlight {
+    font-size: 46px;
+    line-height: 42px;
+    color: #fff;
+    font-family: 'Vidaloka', sans-serif;
 }

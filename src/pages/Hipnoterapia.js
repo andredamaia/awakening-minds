@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 
 import '../styles/Hipnoterapia.css';
 
@@ -9,6 +10,11 @@ import iceberg from '../assets/iceberg.png'
 export default function Hipnoterapia() {
     return (
         <>
+            <Helmet>
+                <title>Hipnoterapia - Awakening Minds</title>
+                <meta name="description" content="A Hipnoterapia, popularizada durante o século 20 pelo médico alemão Franz Mesmer, é utilizada para criar um estado de atenção focado e alta sugestibilidade em que sugestões positivas e imagens guiadas são usadas para ajudar indivíduos a trabalhar com uma variedade de problemas e preocupações." />
+            </Helmet>
+
             <div className="hip-blue">
                 <div className="container">
                     <div className="row">
@@ -31,7 +37,7 @@ export default function Hipnoterapia() {
                         </div> 
 
                         <div className="col-12 col-md-3">
-                            <img src={hipimg1} alt="" />
+                            <img src={hipimg1} style={{ maxWidth: '100%' }} alt="" />
                         </div>
                     </div>
                 </div>
@@ -43,7 +49,7 @@ export default function Hipnoterapia() {
                         <div className="col-12 col-md-9"> 
                             <p>Imagine que você possui uma caixa, e que dentro dela você guarda todas as suas emoções, pensamentos, hábitos, crenças e sensações. Imagine que tudo que você considera certo ou errado, bom ou ruim, justo ou injusto está bem ali dentro da caixa. Tudo que você vivencia por meio dos seus cinco sentidos cria uma impressão, e tais impressões, quando experimentadas frequentemente, se transformam em crenças que serão instaladas no seu subconsciente como um programa que você não pode ver, mas que está ali dominando sua vida.</p>
 
-                            <p>Esta “pequena caixa”, que é seu subconsciente contendo tudo que você acredita ser "você", vai se auto projetar e fazer com que cada pensamento que tenha, cada palavra que diga e cada atitude que tome trará mais impressões similares para reforçar as programações já formadas na sua mente, independente de serem benéficas ou não. É como se você estivesse dentro de um labirinto sem saída, andando em círculos e sempre retornando ao mesmo ponto de partida.</p>
+                            <p>Esta “pequena caixa”, que é seu subconsciente contendo tudo que você acredita ser "você", vai se auto projetar e fazer com que cada pensamento que tenha, cada palavra que diga e cada atitude que tome traga mais impressões similares para reforçar as programações já formadas na sua mente, independente de serem benéficas ou não. É como se você estivesse dentro de um labirinto sem saída, andando em círculos e sempre retornando ao mesmo ponto de partida.</p>
 
                             <p>Vamos dizer que, enquanto criança, você foi constantemente negligenciado por seus pais, aquele seu pequeno desenho foi subjugado ou menosprezado, não sendo considerado bom o suficiente; que você sempre ouviu que não era inteligente porque não conseguia terminar suas tarefas de matemática sozinho (mesmo sendo muito bom em biologia). Na escola você sofreu bullying e seus professores estavam sempre te lembrando o quão lento você era, ou o quão atrasado em comparação aos seus colegas. Com este julgamento, sua caixa será preenchida apenas com crenças limitantes sobre você mesmo</p>
 
@@ -53,8 +59,8 @@ export default function Hipnoterapia() {
                             </div>
                         </div>
 
-                        <div className="col-12 col-md-3">
-                            <img src={imgbox} alt="" />
+                        <div className="col-12 col-md-3 d-none d-md-block">
+                            <img src={imgbox} style={{ maxWidth: '100%' }} alt="" />
                         </div>
                     </div>
                 </div>    
@@ -86,7 +92,6 @@ export default function Hipnoterapia() {
                                 <p className="text-iceberg">	Durante a sessão de hipnoterapia, você é guiado a um estado profundo de relaxamento, onde seu subconsciente pode ser acessado. Você recebe instruções para buscar memórias, sentimentos e imagens específicos.  O terapeuta então inunda sua
                                 mente com sugestões positivas que quebram e substituem antigos padrões.
                                 </p>
-
                             </div>
                         </div>
 

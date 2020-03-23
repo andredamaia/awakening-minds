@@ -11,7 +11,7 @@ function Header(){
     function usePageViews() {
         useEffect(() => {
             
-        }, []);
+        }, [location]);
     }
 
     usePageViews();
@@ -25,7 +25,7 @@ function Header(){
                             <Link to="/"><img src={logo} alt="" /></Link>
                         </div>
                         
-                        <div className="col-12 col-md-8">
+                        <div className="col-12 col-md-8 d-none d-md-block">
                             <ul>
                                 <li>
                                     <Link 
@@ -65,11 +65,21 @@ function Header(){
 
                                 <li>
                                     <Link 
-                                        to="/coaching"
-                                        className={ location.pathname === '/coaching' ? "active" : "" }
+                                        to="/life-coaching"
+                                        className={ 
+                                            location.pathname === '/life-coaching' || 
+                                            location.pathname === '/despertar-espiritual' || 
+                                            location.pathname === '/kundalini' ? "active" : "" 
+                                        }
                                     >
                                         Coaching
                                     </Link>
+
+                                    <ul className="list-dropdown">
+                                        <li><Link to="/life-coaching">Life coaching</Link></li>
+                                        <li><Link to="/despertar-espiritual">Despertar espiritual</Link></li>
+                                        <li><Link to="/kundalini">Kundalini</Link></li>
+                                    </ul>
                                 </li>
 
                                 <li>

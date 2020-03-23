@@ -52,7 +52,7 @@ export default function Deixair() {
                         </div>
 
                         <div className="col-12 col-md-4">
-                            <img src={spirit} alt="" />
+                            <img src={spirit} style={{ maxWidth: '100%' }} alt="" />
                         </div>
 
                         <div className="col-12 col-md-4 right">

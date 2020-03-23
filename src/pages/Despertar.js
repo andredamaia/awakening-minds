@@ -1,13 +1,14 @@
 import React from 'react';
 
-import cave from '../assets/cave.png'
-import lotus from '../assets/lotus.png'
+import '../styles/Despertar.css';
+
+import cave from '../assets/cave.png';
+import lotus from '../assets/lotus.png';
 
 
 export default function Despertar() {
     return(
         <>
-
             <div className="bg-meditation">
                 <div className="container">
                     <div className="row">
@@ -27,15 +28,11 @@ export default function Despertar() {
                     <div className="row">
                         <div className="col-12 col-md-10 offset-md-1">
                             <h2>Você quer realmente se conectar com seu Eu superior e viver uma vida preenchida<br/> 
-                            com amor, abundância e alegria?
-                            </h2>
+                            com amor, abundância e alegria?</h2>
 
-                            <p>	A maioria de nós, sem saber que merecemos e podemos mais, nos acomodamos com uma vida que pode parecer incompleta, em que somente vivemos um dia após o outro, esperando que de alguma maneira as coisas melhorem para que então possamos encontrar a felicidade.
-                            </p>    
+                            <p>	A maioria de nós, sem saber que merecemos e podemos mais, nos acomodamos com uma vida que pode parecer incompleta, em que somente vivemos um dia após o outro, esperando que de alguma maneira as coisas melhorem para que então possamos encontrar a felicidade.</p>    
 
-                            <p>E se eu te falar que você pode ser feliz agora? Que neste exato momento você pode se conectar com quem você realmente é e nesta conexão não há nenhum sentimento de descontentamento, desmerecimento ou dor?
-                            </p>
-                            
+                            <p>E se eu te falar que você pode ser feliz agora? Que neste exato momento você pode se conectar com quem você realmente é e nesta conexão não há nenhum sentimento de descontentamento, desmerecimento ou dor?</p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +44,7 @@ export default function Despertar() {
                         <div className="col-12">
                             <p className="col-12 col-md-10 offset-md-1">Um Espiritual Coach te ajuda a mergulhar dentro de si para curar seu corpo, sua mente e seu coração, permitindo acessar seu verdadeiro poder pessoal. Uma vez que tenha as ferramentas e o entendimento de que você também é um milagre e pode conquistar tudo que desejar, você irá então se libertar das limitações da mente e do auto e coletivo condicionamento que vem te aprisionando durante toda a vida.</p>
 
-                            <h3>Se está cansado de se deparar com as mesmas situações e emoções negativas e quer mudar sua vida 
+                            <h3 style={{ border: 'none' }}>Se está cansado de se deparar com as mesmas situações e emoções negativas e quer mudar sua vida 
                             para melhor; ou se experienciou um Despertar Espiritual espontâneo, estou aqui para ajudá-lo 
                             a caminhar com consciência, confiança e gratidão.
                             </h3>
@@ -66,7 +63,7 @@ export default function Despertar() {
                         <div className="col-12">
                             <img src={cave} className="img-left" alt="" />
 
-                            <h3>O caminho para me encontrar</h3>
+                            <h3 style={{ border: 'none' }}>O caminho para me encontrar</h3>
 
                             <p>	Desde criança tenho tido experiências incomuns, como esse episódio que gostaria de dividir com vocês: aconteceu quando eu tinha por volta de cinco anos de idade. Estava com muita fome e queria
                             logo tomar minha sopa, mas ela estava quente demais, então pedi a Deus que ajudasse a resfriá-la,
@@ -113,45 +110,21 @@ export default function Despertar() {
                             <p><strong>Abaixo alguns dos sintomas físicos mais comuns que identifiquei e aprendi a tratar:</strong></p>
                         </div>
 
-                        
-
                         <div className="col-12 col-md-4 offset-md-3 list-ansiedade">
                             <ul>
-                                <li>
-                                    - Ansiedade e medo do desconhecido
-                                </li>
-
-                                <li>
-                                    - Pressão e dores na cabeça, peito e costas
-                                </li>
-
-                                <li>
-                                    - Palpitações cardíacas
-                                </li>
-
-                                <li>
-                                    - Insônia
-                                </li>
+                                <li>- Ansiedade e medo do desconhecido</li>
+                                <li>- Pressão e dores na cabeça, peito e costas</li>
+                                <li>- Palpitações cardíacas</li>
+                                <li>- Insônia</li>
                             </ul>
                         </div>
 
                         <div className="col-12 col-md-4 list-fadiga">
                             <ul>
-                                <li>
-                                    - Fadiga
-                                </li>
-
-                                <li>
-                                    - Correntes de energia/eletricidade por todo o corpo
-                                </li>
-
-                                <li>
-                                    - Sentidos ampliados
-                                </li>
-
-                                <li>
-                                    - Ondas de calor
-                                </li>
+                                <li>- Fadiga</li>
+                                <li>- Correntes de energia/eletricidade por todo o corpo</li>
+                                <li>- Sentidos ampliados</li>
+                                <li>- Ondas de calor</li>
                             </ul>
                         </div>
                         
@@ -164,8 +137,7 @@ export default function Despertar() {
                     <div className="row">
 
                         <div className="col-9 offset-md-2">
-                            <p>Os sintomas acima são somente físicos, normalmente vêm acompanhados de enormes mudanças mentais e emocionais, que abrirão espaço para o indivíduo se tornar seu Eu superior e ser então guiado por sua própria fonte de intuição e poder.
-                            </p>
+                            <p>Os sintomas acima são somente físicos, normalmente vêm acompanhados de enormes mudanças mentais e emocionais, que abrirão espaço para o indivíduo se tornar seu Eu superior e ser então guiado por sua própria fonte de intuição e poder.</p>
                         </div>
 
                         <div className="col-12 col-md-4">
@@ -190,8 +162,7 @@ export default function Despertar() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <p>Se você está passando por Emergência Espiritual ou Síndrome da Kundalini e está com dificuldades financeiras, envie também um e-mail explicando sua situação e<br/> farei o possível para te ajudar: andressa@andressa-awakeningminds.com
-                            </p>
+                            <p>Se você está passando por Emergência Espiritual ou Síndrome da Kundalini e está com dificuldades financeiras, envie também um e-mail explicando sua situação e<br/> farei o possível para te ajudar: andressa@andressa-awakeningminds.com</p>
                         </div>
                     </div>
                 </div>

@@ -34,18 +34,18 @@ export default function Home() {
             <div className="col-12 col-md-6">
               <h3 className="add-top">Seja bem-vindo!</h3>
 
-              <p><strong>Olá meu querido Ser Humano, seja bem- vindo ao meu website! </strong></p>
+              <p><strong>Olá meu querido Ser Humano, seja bem-vindo ao meu website! </strong></p>
 
               <img src={faces} className="img-right" alt="" />
 
-              <p>Se você está lendo esta página, parabéns, você está pronto para mudar! Enquanto muitos não sabem do seu real potencial e desperdiçam as chances que a vida lhes dá para viver plenamente, você provou que acredita e isso já é suficiente para iniciar sua transformação. Se em vez de passar meses ou anos fazendo terapia sem saber ao certo os benefícios que isso lhe trará, se sua intenção é obter resultados reais em curto período de tempo, você está no lugar certo!</p>
+              <p>Se você está lendo esta página, parabéns, você está pronto para mudar! Enquanto muitos não sabem o seu real potencial e desperdiçam as chances que a vida lhes dá para viver plenamente, você provou que acredita e isso já é suficiente para iniciar sua transformação. Se em vez de passar meses ou anos fazendo terapia sem saber ao certo os benefícios que isso lhe trará, se sua intenção é obter resultados reais em curto período de tempo, você está no lugar certo!</p>
 
               <p>E se você pudesse curar todo seu passado, perdoar e ser perdoado por tudo que já aconteceu? O que aconteceria se você pudesse deixar os hábitos que não te beneficiam e programar outros que suportam seus sonhos? Como você se sentiria ao transformar sua auto imagem, na qual se vê como do milagre que é, confiante, inteligente e um ser que merece amor incondicional? Você quer ser sua melhor versão, não quer? </p>
 
               <p>Estou aqui para te ajudar lado a lado a aprender a  viver uma vida feliz!</p>
 
               <div className="red-box">
-                <a href="#">Clique Aqui</a> para saber mais sobre os tratamentos oferecidos e descobrir qual é o <a href="#">mais indicado para você.</a>
+                <a href="/">Clique Aqui</a> para saber mais sobre os tratamentos oferecidos e descobrir qual é o <a href="/">mais indicado para você.</a>
               </div>
               
             </div>
@@ -59,9 +59,9 @@ export default function Home() {
             <div className="col-12 col-md-10 offset-md-1 text-center">
               <h3>Quais são as técnicas de intervenção emocional?</h3>
 
-              <p>A ciência sugere que <strong>95% do comportamento humano</strong> deriva do subconsciente e que <strong>apenas 5%</strong> é escolhido conscientemente, assim a importancia da <strong><Link to="/hipnoterapia">Hipnose</Link>, <Link to="/pnl">PNL</Link> e da técnica <Link to="/deixar-ir">Deixar ir</Link></strong> para acessar e redefinir padrões gravados e projetados inconscientemente.  Através da <strong><Link to="/hipnoterapia">Hipnoterapia</Link></strong>, padrões negativos comportamentais são rapidamente substituidos por sugestões positivas, permitindo que o cliente obtenha considerável melhoria na área a ser desenvolvida.</p>
+              <p>A ciência sugere que <strong>95% do comportamento humano</strong> deriva do subconsciente e que <strong>apenas 5%</strong> é escolhido conscientemente, assim a importância da <strong><Link to="/hipnoterapia">Hipnose</Link>, <Link to="/pnl">PNL</Link> e da técnica <Link to="/deixar-ir">Deixar ir</Link></strong> para acessar e redefinir padrões gravados e projetados inconscientemente.  Através da <strong><Link to="/hipnoterapia">Hipnoterapia</Link></strong>, padrões negativos comportamentais são rapidamente substituidos por sugestões positivas, permitindo que o cliente obtenha considerável melhoria na área a ser desenvolvida.</p>
 
-              <p>Seja através de técnicas de <strong><Link to="/coaching">Intervenção Emocional ou do Coaching</Link></strong>,  para desenvolvimento pessoal ou profissional, todas as sessões são detalhadamente preparadas de acordo com as necessidades do cliente. Meu objetivo como Terapeuta e Coach é eliminar crenças limitantes e guiar meus clientes ao <strong>autoconhecimento e inteligência emocional</strong>, onde possam resgatar seu poder pessoal e manifestar a vida que tanto desejam.</p>
+              <p>Seja através de técnicas de <strong><Link to="/coaching">Intervenção Emocional ou do Coaching</Link></strong>,  para desenvolvimento pessoal ou profissional, todas as sessões são detalhadamente preparadas de acordo com as necessidades do cliente. Meu objetivo como Coach é eliminar crenças limitantes e guiar meus clientes ao <strong>autoconhecimento e inteligência emocional</strong>, onde possam resgatar seu poder pessoal e manifestar a vida que tanto desejam.</p>
             </div>
 
             <div className="col-12 col-md-6 offset-md-3 text-uppercase">

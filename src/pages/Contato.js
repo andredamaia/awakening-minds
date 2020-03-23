@@ -1,33 +1,22 @@
-import React, { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import React from 'react';
 
-import './styles.css';
+import '../styles/Contato.css';
 
-import iconfacebook from '../../assets/icon-facebook.png';
-import iconinstagram from '../../assets/icon-instagram.png';
-import iconwhats from '../../assets/icon-whats.png';
-import ig from '../../assets/ig.png';
+import iconfacebook from '../assets/icon-facebook.png';
+import iconinstagram from '../assets/icon-instagram.png';
+import iconwhats from '../assets/icon-whats.png';
+import ig from '../assets/ig.png';
 
-function Footer() {
-    let location = useLocation();
-
-    useEffect(() => {
-
-    }, [location]);
-
-    function usePageViews() {
-        useEffect(() => {
-
-        }, []);
-    }
-
-    usePageViews();
-
-    return(
+export default function Contato() {
+    return (
         <>
-            <div className={ location.pathname === '/contato' ? "d-none" : "bg-contato" }>
+            <div className="bg-contato-holder" style={{ marginTop: 120 }}>
                 <div className="container">
                     <div className="row">
+                        <div className="col-12 col-md-6 offset-md-3 text-center">
+                            <p>Entre em contato para conversarmos e fazermos sua primeira avaliação gratuita. Basta preencher os campos abaixo ou enviar um e-mail diretamente para <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a></p>
+                        </div>
+
                         <div className="col-12 contato">
                             <h2>Contato</h2>
                         </div>
@@ -65,27 +54,14 @@ function Footer() {
                             </form>
                         </div>
 
-                        {/* <div className="col-12 col-md-3">
-                            <div>
-                                <div>
-                                    <span className="depoimento">Eu encontrei a minha melhor versão depois do tratamento, me sentindo mais completo e saudável.</span>
-
-                                    <span className="author">
-                                        <strong>Fulano de tal</strong>
-                                        Cargo
-                                    </span>
-                                </div>
-                            </div>
-                        </div> */}
-
                         <div className="col-12 col-md-3 text-center">
                             <img src={ig} style={{ maxWidth: '100%' }} alt="" />
                         </div>
 
                         <div className="col-12 text-center copyright-holder">
-                            <a href="https://www.facebook.com/andressa.mokesinski" target="_blank" rel="noopener noreferrer"><img src={iconfacebook} alt="" /></a>
-                            <a href="https://www.instagram.com/andressa_mokesinski/" target="_blank" rel="noopener noreferrer"><img src={iconinstagram} alt="" /></a>
-                            <a href="https://api.whatsapp.com/send?phone=+971552586276" target="_blank" rel="noopener noreferrer"><img src={iconwhats} alt="" /></a>
+                            <a href="/" target="_blank" rel="noopener noreferrer"><img src={iconfacebook} alt="" /></a>
+                            <a href="/" target="_blank" rel="noopener noreferrer"><img src={iconinstagram} alt="" /></a>
+                            <a href="/" target="_blank" rel="noopener noreferrer"><img src={iconwhats} alt="" /></a>
 
                             <p className="copyright">
                                 @ 2020 Awakening Minds. All rights reserved. Terms and condictions. Privacy Policy.</p>
@@ -94,7 +70,5 @@ function Footer() {
                 </div>
             </div>
         </>
-    )
+    );
 }
-
-export default Footer;

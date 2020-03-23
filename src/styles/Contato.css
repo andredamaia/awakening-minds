@@ -1,12 +1,12 @@
-.bg-contato {
-    background: url('../../assets/bg-footer.jpg') center center no-repeat;
+.bg-contato-holder {
+    background: url('../assets/bg-footer.jpg') center center no-repeat;
     background-size: cover;
+    padding: 80px 0 20px;
 }
 
-.bg-contato h2 {
+.bg-contato-holder h2 {
     text-align: center;
     color: #ffffff;
-    padding: 55px;
     font-size: 45px;
     text-transform: uppercase;
 }
@@ -16,9 +16,11 @@ span.title {
     font-size: 25px;
 }
 
-.bg-contato p {
+.bg-contato-holder p {
     color: #ffffff;
 }
+.bg-contato-holder p a { color: #fff; font-weight: bold; text-decoration: none; }
+.bg-contato-holder p a:hover { text-decoration: underline; }
 
 
 form input {
@@ -51,8 +53,8 @@ form textarea {
     color: #ffffff;
     font-weight: 200;
 }
-/* 
-.row {
+
+/* .row {
     margin-top: -15px;
     margin-left: -51px;
 } */
@@ -75,7 +77,7 @@ form textarea {
 
 .copyright-holder { margin-top: 60px; }
 
-.bg-contato .endereco p { opacity: .4; line-height: 26px; }
+.bg-contato-holder .endereco p { opacity: .4; line-height: 26px; }
 
 .title {
     font-family: 'Vidaloka', sans-serif;
@@ -85,14 +87,14 @@ form textarea {
     text-transform: uppercase;
 }
 
-.bg-contato a {
+.bg-contato-holder a {
     padding: 3px;
 }
 
 p.copyright {
     font-size: 15px;
     font-weight: lighter;
-    padding: 20px;
+    padding: 20px 0 0;
 }
 
 .depoimento {
@@ -101,8 +103,8 @@ p.copyright {
     font-size: 24px;
     font-style: italic;
     line-height: 32px;
-    background: url('../../assets/aspas-1.png') left top no-repeat,
-                url('../../assets/aspas-2.png') right bottom no-repeat;
+    background: url('../assets/aspas-1.png') left top no-repeat,
+                url('../assets/aspas-2.png') right bottom no-repeat;
     padding: 20px 30px;
     color: #fff;
     margin-bottom: 30px;
