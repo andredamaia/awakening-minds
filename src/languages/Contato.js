@@ -12,36 +12,36 @@ export default function Contato() {
     return (
         <>
             <Helmet>
-                <title>Contato - Awakening Minds</title>
-                <meta name="description" content="Entre em contato para conversarmos e fazermos sua primeira avaliação gratuita." />
+                <title>Contact - Awakening Minds</title>
+                <meta name="description" content="Get in touch for us to talk and schedule your free assessment" />
             </Helmet>
 
             <div className="bg-contato-holder" style={{ marginTop: 120 }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-6 offset-md-3 text-center">
-                            <p>Entre em contato para conversarmos e fazermos sua primeira avaliação gratuita. Basta preencher os campos abaixo ou enviar um e-mail diretamente para <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a></p>
+                            <p>Get in touch for us to talk and schedule your free assessment. Just fill the blanks bellow or e-mail to <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a></p>
                         </div>
 
                         <div className="col-12 contato">
-                            <h2>Contato</h2>
+                            <h2>Contact</h2>
                         </div>
 
                         <div className="col-12 col-md-3 endereco">
-                            <span className="title">Endereço Dubai</span>
+                            <span className="title">Dubai’s Address</span>
                             <p>Dubai Marina - Dubai<br/> United Arab Emirates.</p>
 
-                            <span className="title">Endereço Brasil</span>
+                            <span className="title">Brazil’s Address</span>
                             <p>Trindade - Florianópolis,<br/> Santa Catarina<br/> Brasil</p>
 
-                            <span className="title">Telefone</span>
+                            <span className="title">Telephone:</span>
                             <p>+971 55 2586276</p>
                         </div>
 
                         <div className="col-12 col-md-6">
                             <form action="">
                                 <div className="input-block">
-                                    <input name="nome" id="nome" placeholder="Nome" required />
+                                    <input name="nome" id="nome" placeholder="Name" required />
                                 </div>
 
                                 <div className="input-block">
@@ -49,13 +49,13 @@ export default function Contato() {
                                 </div>
 
                                 <div className="input-block">
-                                    <input name="telefone" id="telefone" placeholder="Telefone" required />
+                                    <input name="telefone" id="telefone" placeholder="Telephone" required />
                                 </div>
 
                                 <div className="input-block text-center">
-                                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
 
-                                    <button className="button-default">Enviar</button>
+                                    <button className="button-default">Send</button>
                                 </div>
                             </form>
                         </div>

@@ -5,25 +5,26 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
-import Menu from './components/Menu/Menu';
+import MenuHolder from './components/MenuHolder/MenuHolder';
+import Loading from './components/Loading/Loading';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/global.css';
 
 const rootElement = document.getElementById("root");
 if (rootElement.hasChildNodes()) {
-  hydrate(<Suspense fallback={<div><h1>Loading...</h1></div>}>
+  hydrate(<Suspense fallback={<div><Loading /></div>}>
     <Router>
       <ScrollToTop />
-      <Menu />
+      <MenuHolder />
       <App />
     </Router>
 </Suspense>, rootElement);
 } else {
-  render(<Suspense fallback={<div><h1>Loading...</h1></div>}>
+  render(<Suspense fallback={<div><Loading /></div>}>
     <Router>
       <ScrollToTop />
-      <Menu />
+      <MenuHolder />
       <App />
     </Router>
 </Suspense>, rootElement);

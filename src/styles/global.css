@@ -51,7 +51,7 @@ h2 {
     
 h3 {
     font-family: 'Vidaloka', sans-serif;
-    font-size: 46px;
+    font-size: 39px;
     color: #52545a;
     border-bottom: 2px solid #828693;
     padding-bottom: 22px;
@@ -61,10 +61,16 @@ h3 {
 
 .bm-burger-button { display: none; }
 
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
     header li a { font-size: 16px !important; }
     header li::before { top: 4px !important; }
+
+    .img-psicodelic { width: 300px !important; }
 }   
+
+@media (max-width: 1200px) {
+    .img-psicodelic { display: none; }
+}
 
 @media (max-width: 960px) {
     .bm-burger-button { display: block; }
@@ -95,8 +101,8 @@ h3 {
     }
 
     header { 
-        padding: 28px 0; 
-        height: auto; 
+        padding: 28px 0 !important; 
+        height: auto !important; 
     }
     header img { max-width: 80%; }
 
@@ -212,5 +218,41 @@ h3 {
         margin-bottom: 20px;
         margin-right: 20px !important;
         text-align: left !important;
+    }
+
+    .list-fadiga { left: 0 !important; }
+
+    .bg-chakra .depoimento {
+        font-size: 24px !important;
+        line-height: 32px !important;
+        text-align: center !important;
+    }
+
+    .bg-kundalini .img-kundalini-1 {
+        right: 0 !important;
+        top: -45px !important;
+        position: absolute !important;
+        width: 250px !important;
+    }
+    .bg-kundalini .img-kundalini-2 { display: none; }
+
+    .bg-snake .img-snake-1 {
+        right: 0 !important;
+        bottom: -95px !important;
+        position: absolute !important;
+        width: 105px !important;
+    }
+
+    .bg-snake .img-snake-2 { display: none; }
+
+    .hip-blue {
+        background-position: center no-repeat;
+    }
+
+    .img-left, .img-right {
+        width: 65% !important;
+        display: block !important;
+        float: none !important;
+        margin: 0 auto 30px !important;
     }
 }

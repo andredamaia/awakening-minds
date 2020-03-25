@@ -1,5 +1,5 @@
-import React, { lazy, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import React, { lazy, useEffect, useState } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -15,11 +15,39 @@ const Contato = lazy(() => import('./pages/Contato'));
 const Blog = lazy(() => import('./pages/Blog'));
 const BlogPost = lazy(() => import('./pages/BlogPost'));
 
+const AppEN = lazy(() => import('./languages/App'));
+const HomeEN = lazy(() => import('./languages/Home'));
+const HipnoterapiaEN = lazy(() => import('./languages/Hipnoterapia'));
+const PnlEN = lazy(() => import('./languages/Pnl'));
+const DeixarIrEN = lazy(() => import('./languages/DeixarIr'));
+const LifeCoachingEN = lazy(() => import('./languages/LifeCoaching'));
+const DespertarEN = lazy(() => import('./languages/Despertar'));
+const KundaliniEN = lazy(() => import('./languages/Kundalini'));
+const BlogEN = lazy(() => import('./languages/Blog'));
+const BlogPostEN = lazy(() => import('./languages/BlogPost'));
+// const ContatoEN = lazy(() => import('./languages/Contato'));
+
 
 function App() {
+    let location = useLocation();
+    const [lang, setLang] = useState(false);
+
+    function usePageViews() {
+        useEffect(() => {
+            const url = location.pathname;
+            const checkLangUrl = url.includes("/en");
+
+            if(checkLangUrl) {
+              setLang(true);
+            }
+        }, [location]);
+    }
+
+    usePageViews();
+
   return(
     <>
-      <Header/>
+      { lang ? '' : <Header /> }
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -34,7 +62,22 @@ function App() {
         <Route path="/contato" element={<Contato />} />
       </Routes>
 
-      <Footer />
+      <Routes>
+        <Route path="/en" element={<AppEN />}>
+          <Route path="" element={<HomeEN />} />
+          <Route path="hypnotherapy" element={<HipnoterapiaEN />} />
+          <Route path="nlp" element={<PnlEN />} />
+          <Route path="letting-go" element={<DeixarIrEN />} />
+          <Route path="life-coaching" element={<LifeCoachingEN />} />
+          <Route path="spiritual-awakening" element={<DespertarEN />} />
+          <Route path="kundalini" element={<KundaliniEN />} />
+          <Route path="blog" element={<BlogEN />} />
+          <Route path="posts/:slug" element={<BlogPostEN />} />
+          {/* <Route path="contato" element={<ContatoEN />} /> */}
+        </Route>
+      </Routes>
+
+      { lang ? '' : <Footer /> }
     </>
   )
   

@@ -3,8 +3,8 @@ import { Link, useLocation } from 'react-router-dom';
 
 import './styles.css';
 
-import logo from '../../assets/logo.png';
-import usa from '../../assets/usa-today.png';
+import logo from '../../../assets/logo.png';
+import brazil from '../../../assets/brazil.png';
 
 function Header(){
     let location = useLocation();
@@ -19,19 +19,19 @@ function Header(){
 
     return(
         <>
-            <header className="lang-pt">
+            <header>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 col-md-3">
-                            <Link to="/"><img src={logo} alt="" /></Link>
+                            <Link to="/en"><img src={logo} alt="" /></Link>
                         </div>
                         
                         <div className="col-12 col-md-9 d-none d-md-block">
                             <ul>
                                 <li>
                                     <Link 
-                                        to="/"
-                                        className={ location.pathname === '/' ? "active" : "" }
+                                        to="/en"
+                                        className={ location.pathname === '/en' ? "active" : "" }
                                     >
                                         Home
                                     </Link>
@@ -39,54 +39,54 @@ function Header(){
 
                                 <li>
                                     <Link 
-                                        to="/hipnoterapia"
-                                        className={ location.pathname === '/hipnoterapia' ? "active" : "" }
+                                        to="/en/hypnotherapy"
+                                        className={ location.pathname === '/en/hypnotherapy' ? "active" : "" }
                                     >
-                                        Hipnoterapia
+                                        Hypnotherapy
                                     </Link>
                                 </li>
                                 
                                 <li>
                                     <Link 
-                                        to="/pnl"
-                                        className={ location.pathname === '/pnl' ? "active" : "" }
+                                        to="/en/nlp"
+                                        className={ location.pathname === '/en/nlp' ? "active" : "" }
                                     >
-                                        Pnl
+                                        NLP
                                     </Link>
                                 </li>
 
                                 <li>
                                     <Link 
-                                        to="/deixar-ir"
-                                        className={ location.pathname === '/deixar-ir' ? "active" : "" }
+                                        to="/en/letting-go"
+                                        className={ location.pathname === '/en/letting-go' ? "active" : "" }
                                     >
-                                        Deixar ir
+                                        Letting Go
                                     </Link>
                                 </li>
 
                                 <li>
                                     <Link 
-                                        to="/life-coaching"
+                                        to="/en/life-coaching"
                                         className={ 
-                                            location.pathname === '/life-coaching' || 
-                                            location.pathname === '/despertar-espiritual' || 
-                                            location.pathname === '/kundalini' ? "active" : "" 
+                                            location.pathname === '/en/life-coaching' || 
+                                            location.pathname === '/en/spiritual-awakening' || 
+                                            location.pathname === '/en/kundalini' ? "active" : "" 
                                         }
                                     >
                                         Coaching
                                     </Link>
 
                                     <ul className="list-dropdown">
-                                        <li><Link to="/life-coaching">Life coaching</Link></li>
-                                        <li><Link to="/despertar-espiritual">Despertar espiritual</Link></li>
-                                        <li><Link to="/kundalini">Kundalini</Link></li>
+                                        <li><Link to="/en/life-coaching">Life coaching</Link></li>
+                                        <li><Link to="/en/spiritual-awakening">Spiritual Awakening</Link></li>
+                                        <li><Link to="/en/kundalini">Kundalini</Link></li>
                                     </ul>
                                 </li>
 
                                 <li>
                                     <Link 
-                                        to="/blog"
-                                        className={ location.pathname === '/blog' ? "active" : "" }
+                                        to="/en/blog"
+                                        className={ location.pathname === '/en/blog' ? "active" : "" }
                                     >
                                         Blog
                                     </Link>
@@ -94,15 +94,15 @@ function Header(){
 
                                 <li>
                                     <Link 
-                                        to="/contato"
-                                        className={ location.pathname === '/contato' ? "active" : "" }
+                                        to="/en/contact"
+                                        className={ location.pathname === '/en/contact' ? "active" : "" }
                                     >
-                                        Contato
+                                        Contact
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <Link to="/en"><img src={usa} alt="" /></Link>
+                                    <a href="/"><img src={brazil} alt="" /></a>
                                 </li>
                             </ul>
                         </div>

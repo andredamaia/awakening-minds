@@ -29,7 +29,7 @@ export default function Blog() {
                     <div className="col-12 col-md-8">
                         <div className="box-blog">
                             <div className="blog-image">
-                                <Link to="/posts/spiritual-awakening-&-ego-death"><img src={blog1} alt="" /></Link>
+                                <Link to="/en/posts/spiritual-awakening-&-ego-death"><img src={blog1} alt="" /></Link>
                             </div>
 
                             <div className="row d-flex align-items-center">
@@ -45,8 +45,8 @@ export default function Blog() {
 
                             <p>Thinking about your little self, the separated one that you created when you were around 07-09 years old, the "little Me". After identifying to that character who has a name, an address, plays specific sport at Scholl and has a toy that he/she loves, that little you (Ego) has grow out of control and now rules the real you!</p>
 
-                            <Link to="/posts/spiritual-awakening-&-ego-death" className="button-blog">
-                                Continue Lendo <img src={iconBlog} alt="" />
+                            <Link to="/en/posts/spiritual-awakening-&-ego-death" className="button-blog">
+                                Read more <img src={iconBlog} alt="" />
                             </Link>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ export default function Blog() {
                         <div className="sidebar">
                             <img src={sobre} alt="Andressa" />
 
-                            <h2>Sobre mim</h2>
+                            <h2>About me</h2>
 
                             <p>Brasileira, ex-gerente regional de compras em uma empresa multinacional em Dubai, decidi deixar o mundo corporativo em busca de liberdade e transformação pessoal, e ajudar as pessoas a também criarem a vida que sempre sonharam.</p>
 

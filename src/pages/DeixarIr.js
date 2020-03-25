@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import '../styles/DeixarIr.css';
 
@@ -8,6 +9,11 @@ import spirit from '../assets/spirit.png'
 export default function Deixair() {
     return(
         <>
+            <Helmet>
+                <title>Deixar Ir - Awakening Minds</title>
+                <meta name="description" content="Nós mudamos o mundo não pelo que falamos ou fazemos, mas sim por consequência do que nos tornamos." />
+            </Helmet>
+
             <div className="bg-beach">
                 <div className="container">
                     <div className="row">
@@ -76,7 +82,7 @@ export default function Deixair() {
                         </div>
 
                         <div className="col-12 col-md-10 offset-md-1">
-                            <p>o cliente não somente será capaz de eliminar emoções negativas, entendendo a origem das mesmas e suas influências em seu comportamento e personalidade, como também se tornará extremamente resiliente para lidar com novos desafios da vida. Ao aprender aplicar a técnica em si mesmo, em qualquer lugar e em qualquer momento, ele evita que novos bloqueios de negatividade sejam criados.</p>
+                            <p>o paciente não somente será capaz de eliminar emoções negativas, entendendo a origem das mesmas e suas influências em seu comportamento e personalidade, como também se tornará extremamente resiliente para lidar com novos desafios da vida. Ao aprender aplicar a técnica em si mesmo, em qualquer lugar e em qualquer momento, ele evita que novos bloqueios de negatividade sejam criados.</p>
                         </div>
 
                         <div className="col-12 col-md-4 offset-md-4">

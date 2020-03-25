@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import '../styles/Despertar.css';
 
@@ -9,12 +10,17 @@ import lotus from '../assets/lotus.png';
 export default function Despertar() {
     return(
         <>
+            <Helmet>
+                <title>Despertar Espiritual - Awakening Minds</title>
+                <meta name="description" content="Você quer realmente se conectar com seu Eu superior e viver uma vida preenchida com amor, abundância e alegria?" />
+            </Helmet>
+            
             <div className="bg-meditation">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <p className="text-right">"Ainda que tenhamos encontrado os monstros dentro de nós, vamos continuar<br/> 
-                            tentando matá-los no mundo exterior. Porém, toda a escuridão do Mundo vem<br/> 
+                            <p className="text-right">"Até que tenhamos encontrado os monstros dentro de nós, vamos continuar<br/> 
+                            tentando matá-los no mundo exterior. Porque, toda a escuridão do Mundo vem<br/> 
                             do coração e é lá que devemos trabalhar."<br/>
                             <i>Marianne Williamsom</i>
                             </p>
@@ -95,7 +101,7 @@ export default function Despertar() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-10 offset-md-1">
-                            <p>Somente após meu Despertar Espiritual que percebi que Ele habita dentro de mim. Que o mesmo poder que cria  Universos, também faz meu coração bater e digere o alimento que eu consumo. Aí então entendi o que Osho quer dizer com a frase: "Ore como um amante e não como um mendigo". Graças ao Despertar Espiritual agora estou conectada à fonte divina de criação, não coloco barreiras ao fluxo da vida, que é sempre tão generoso e amável, e aprendi também que ele sempre esteve disponível, basta nos abrir verdadeiramente à Graça que espera pacientemente seus filhos ao retornarem para casa.
+                            <p>Somente após meu Despertar Espiritual que percebi que Ele habita dentro de mim. Que o mesmo poder que cria  Universos, também faz meu coração bater e digere o alimento que eu consumo. Aí então entendi o que Osho quer dizer com a frase: "Ore como um amante e não como um mendigo". Graças ao Despertar Espiritual agora estou conectada à fonte divina de criação, não coloco barreiras ao fluxo da vida, que é sempre tão generoso e amável, e aprendi também que ele sempre esteve disponível, basta nos abrir verdadeiramente à Graça que espera pacientemente seus filhos à retornarem para casa.
                             </p>
                         </div>
 
@@ -138,6 +144,10 @@ export default function Despertar() {
 
                         <div className="col-9 offset-md-2">
                             <p>Os sintomas acima são somente físicos, normalmente vêm acompanhados de enormes mudanças mentais e emocionais, que abrirão espaço para o indivíduo se tornar seu Eu superior e ser então guiado por sua própria fonte de intuição e poder.</p>
+
+                            <p>Durante meu  Despertar Espiritual, apos meses vivendo em uma montanha russa de emocoes, eu descobri a tecnica de Percepcao Temporal que permite em uma unica sessao remover toda e qualquer carga emocional negativa relacionada a Raiva, Dor, Medo, Culpa e Tristeza.</p>
+
+                            <p>Em apenas alguns minutos, anos de negatividade sao transcendidos auxiliando assim a energia a percorrer o Sistema de forma livre, reduzindo consideravemente a ansiedade e permitindo que se sinta leveza e maior tranquilidade durante o processo.</p>
                         </div>
 
                         <div className="col-12 col-md-4">
@@ -147,10 +157,8 @@ export default function Despertar() {
                         <div className="col-12 col-md-7 ferramentas">
                             <p>	Com as ferramentas e comportamentos corretos que possibilitem a expansão da Consciência, a pessoa perceberá que estamos todos conectados ao Espírito e quando abrirmos a porta para receber as bênçãos que o Universo está disposto a proporcionar, começaremos então a manifestar reais milagres.</p>
 
-                            <p className="col-8 offset-md-4 lotus-box">
-                            Entre em contato para agendar sua sessão online<br/>
-                             preenchendo o quadro abaixo ou enviando e-mail para<br/>
-                            andressa@andressa-awakeningminds.com
+                            <p className="col-12 offset-md-4 lotus-box">
+                            Entre em contato para agendar sua sessão online preenchendo o quadro abaixo ou enviando e-mail para <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a>
                             </p>
                         </div>
                     </div>
@@ -162,7 +170,7 @@ export default function Despertar() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <p>Se você está passando por Emergência Espiritual ou Síndrome da Kundalini e está com dificuldades financeiras, envie também um e-mail explicando sua situação e<br/> farei o possível para te ajudar: andressa@andressa-awakeningminds.com</p>
+                            <p>Se você está passando por Emergência Espiritual ou Síndrome da Kundalini e está com dificuldades financeiras, envie também um e-mail explicando sua situação e farei o possível para te ajudar: <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a></p>
                         </div>
                     </div>
                 </div>

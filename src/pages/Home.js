@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 import emotions from '../assets/emotions.png';
@@ -12,6 +13,11 @@ import '../styles/Home.css';
 export default function Home() {
   return (
     <>
+        <Helmet>
+            <title>Awakening Minds</title>
+            <meta name="description" content="Olá meu querido Ser Humano, seja bem-vindo ao meu website!" />
+        </Helmet>
+        
         <div className="bg-sobre">
           <div className="container-fluid">
             <div className="row">
@@ -77,7 +83,7 @@ export default function Home() {
 
                 <div className="col-12 col-md-4 text-icon">
                   <img src={flower} alt="" />
-                  <p>Credenciada pela Federação of NLP Coaching Professionals – FNLPC (Federação de Profissionais de Coaching da PNL</p>
+                  <p>Credenciada pela Federação of NLP Coaching Professionals – FNLPC (Federação de Profissionais de Coaching da PNL)</p>
 
                 </div>
 

@@ -79,7 +79,7 @@ export default function Hipnoterapia() {
             </div>
 
             <div className="hip-iceberg">
-                <img src={iceberg} className="img-iceberg" alt="" />
+                <img src={iceberg} className="img-iceberg d-none d-md-block" alt="" />
 
                 <div className="container">
                     <div className="row">
@@ -100,6 +100,14 @@ export default function Hipnoterapia() {
                             </p>
                         </div>
 
+                        <div className="col-12 d-md-none">
+                            <img 
+                                src={iceberg} 
+                                style={{ maxWidth: '100%', marginBottom: 30, marginRight: -30, left: 15, position: 'relative' }} 
+                                alt="" 
+                            />
+                        </div>
+
                         <div className="col-12 col-md-5 box-left">
                             <h2>Como saber se tenho crenças limitantes?</h2>
 
@@ -107,8 +115,7 @@ export default function Hipnoterapia() {
                         </div>
 
                         <div className="col-12 col-md-7 box-right">
-                            <p>Trabalho, relacionamentos, saúde, abundância financeira, hobbies e o quão feliz você é. Agora dê uma nota de 0 a 10 a cada um deles, sendo 0 absolutamente terrível e 10 totalmente incrível. Se você se vê em uma ou mais categorias com notas menores que 8, definitivamente tem uma crença limitante que determina suas experiências e isso não está te ajudando.
-                            </p>
+                            <p>Trabalho, relacionamentos, saúde, abundância financeira, hobbies e o quão feliz você é. Agora dê uma nota de 0 a 10 a cada um deles, sendo 0 absolutamente terrível e 10 totalmente incrível. Se você se vê em uma ou mais categorias com notas menores que 8, definitivamente tem uma crença limitante que determina suas experiências e isso não está te ajudando.</p>
                         </div>
                     </div>
                 </div>    

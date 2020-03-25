@@ -123,11 +123,6 @@ h4 {
     width: 350px;
 }
 
-.bg-lotus p {
-    font-size: 18px;
-    padding: 15px 0;
-}
-
 .ferramentas p {
     font-size: 18px;
 }
@@ -144,7 +139,7 @@ p.lotus-box {
 .bg-black {
     background: #262c2b;
     text-align: center;
-    padding: 40px 0;
+    padding: 10px 0 0;
 }
 
 .bg-black p {
