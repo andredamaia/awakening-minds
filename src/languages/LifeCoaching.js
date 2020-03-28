@@ -3,8 +3,8 @@ import { Helmet } from 'react-helmet'
 
 import '../styles/LifeCoaching.css';
 
-import bgandressa from '../assets/bg-text.png';
-import bgandressamobile from '../assets/andressa-mobile.jpg';
+import bgandressa from '../assets/life-coaching-3.jpg';
+import bgandressamobile from '../assets/life-coaching-mobile-3.jpg';
 
 export default function Coaching() {
   return (
@@ -32,27 +32,27 @@ export default function Coaching() {
             </div>
 
             <div className="col-12 col-md-6">
-              <p>Raising expectations, beguiled by the mess caused around you, establish yourself in a daily of speedy and frenetic routine are some of the reasons which make us unhappy at the mental, emotional and spiritual areas.</p> 
+              <p>When creating expectations, getting caught up in the turmoil around us, having a busy routine and a frenetic life style are some of the reasons why we become unhappy in the mental, emotional and spiritual areas.</p> 
 
-              <p className="end"><strong>That’s why I dedicated my to know:</strong></p>
+              <p className="end"><strong>That’s why I dedicated myself to know:</strong></p>
             </div>
 
             <div className="col-12 col-md-6">
               <div className="grid-col-2">
                 <div>
-                  <p><strong>Know how to find<br/>
-                  the best in yourself</strong></p>
+                  <p><strong>How to find the <br/>
+                  best in yourself</strong></p>
                 </div>
 
                 <div>
-                  <p><strong>Know how to transforme<br/>
+                  <p><strong>How to transform<br/>
                   your expectations</strong></p>
                 </div>
               </div>
 
               <div className="grid-col-1">
                 <div>
-                  <p><strong>Help you to find the path of your happiness and run across it by your side</strong>
+                  <p><strong>How to help you find the path of your happiness and walk you through it side by side</strong>
                   </p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function Coaching() {
               <p>My coaching is for you if you:</p>
 
               <p>
-                - Want to learn a meaningful approach to life that truly empowers you, unlocks your true potential and enable you to create, achieve and become what you want in life. <br />
+                - A guaranteed path to your happiness and to bring out the best in you <br />
                 - Want guarantee that you will resolve your own perceived life burdens/emotional baggage from the past, replace any limiting beliefs for the desired ones, find in-depth understanding of who you are and how you got to be where you are now, resolve internal conflicts and become the master of your own mind and destiny. <br />
                 - Want to be treated with love, respect and care, receiving unrivaled support and consistency before, during and after the coaching sessions.
               </p>

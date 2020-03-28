@@ -6,6 +6,7 @@ import '../styles/Hipnoterapia.css';
 import hipimg1 from '../assets/hip-img-1.png';
 import imgbox from '../assets/img-box.png'
 import iceberg from '../assets/iceberg.png'
+import icebergMobile from '../assets/iceberg-mobile.png'
 
 export default function Hipnoterapia() {
     return (
@@ -101,11 +102,7 @@ export default function Hipnoterapia() {
                         </div>
 
                         <div className="col-12 d-md-none">
-                            <img 
-                                src={iceberg} 
-                                style={{ maxWidth: '100%', marginBottom: 30, marginRight: -30, left: 15, position: 'relative' }} 
-                                alt="" 
-                            />
+                            <img src={icebergMobile} style={{ maxWidth: '100%', marginBottom: 20 }} alt="" />
                         </div>
 
                         <div className="col-12 col-md-5 box-left">
@@ -125,7 +122,7 @@ export default function Hipnoterapia() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center">
-                            <span>Todo mundo pode ser hipnotizado, não há perda de consciência e o paciente está sempre interagindo ao longo da sessão. É seguro e transformador!</span>
+                            <span>Todo mundo pode ser hipnotizado, não há perda de consciência e o cliente está sempre interagindo ao longo da sessão. É seguro e transformador!</span>
                         </div>
                     </div>
                 </div>    

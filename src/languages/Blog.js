@@ -33,13 +33,13 @@ export default function Blog() {
                             </div>
 
                             <div className="row d-flex align-items-center">
-                                <div className="col-12 col-md-8">
+                                <div className="col-12 col-md-7">
                                     <span className="blog-title">Spiritual Awakening & Ego death</span>
                                 </div>
 
-                                <div className="col-12 col-md-4 text-right">
+                                <div className="col-12 col-md-5 text-right">
                                     <span className="blog-info"><img src={calendar} alt="" /> 14/03/2020</span>
-                                    <span className="blog-info" style={{ color: '#ddbf78' }}><img src={folder} alt="" /> #kundalini</span>
+                                    <span className="blog-info" style={{ color: '#ddbf78' }}><img src={folder} alt="" /> Vídeos, #kundalini</span>
                                 </div>
                             </div>
 
@@ -57,40 +57,53 @@ export default function Blog() {
 
                             <h2>About me</h2>
 
-                            <p>Brasileira, ex-gerente regional de compras em uma empresa multinacional em Dubai, decidi deixar o mundo corporativo em busca de liberdade e transformação pessoal, e ajudar as pessoas a também criarem a vida que sempre sonharam.</p>
+                            <p>Brazilian, former Regional Head of Procurement at a Multinational company based in Dubai, Andressa decided to leave the corporate world to pursue her Personal Transformation and  Freedom and to help people also create the Life of their dreams.</p>
 
-                            <p>Apaixonada pelo comportamento humano, trabalho principalmente online, com Saúde Emocional e Life & Espiritual Coaching enquanto viajo pelo mundo.</p>
+                            <p>Passionate about Human behavior, she works mostly online with Emotional Health, Life & Spiritual Coaching while travels the World.</p>
 
                             <form action="" className="search">
                                 <input type="text" placeholder="Procurar no site" />
                                 <button><img src={iconSearch} alt="Andressa" /></button>
                             </form>
+                            
+                            <div className="posts">
+                                <h2>Categories</h2>
+
+                                <Link Link to="/en/posts/spiritual-awakening-&-ego-death">
+                                    • Articles
+                                </Link>
+                                <Link Link to="/en/posts/spiritual-awakening-&-ego-death">
+                                    • Videos
+                                </Link>
+                            </div>
 
                             <div className="tags">
                                 <h2>Tags</h2>
 
-                                <a href="#">kundalini</a>
-                                <a href="#">pnl</a>
-                                <a href="#">hipnoterapia</a>
-                                <a href="#">deixar ir</a>
-                                <a href="#">coaching</a>
-                                <a href="#">despertar</a>
-                                <a href="#">videos</a>
-                                <a href="#">artigos</a>
-                                <a href="#">técnicas</a>
+                                <a href="/">kundalini</a>
+                                <a href="/">pnl</a>
+                                <a href="/">hipnoterapia</a>
+                                <a href="/">deixar ir</a>
+                                <a href="/">coaching</a>
+                                <a href="/">despertar</a>
+                                <a href="/">videos</a>
+                                <a href="/">artigos</a>
+                                <a href="/">técnicas</a>
                             </div>
 
                             <div className="posts">
-                                <h2>Posts Recentes</h2>
+                                <h2>Recent posts</h2>
 
-                                <a href="#">• Spiritual Awakening & Ego death</a>
+                                <Link Link to="/en/posts/spiritual-awakening-&-ego-death">
+                                    • Spiritual Awakening & Ego death
+                                </Link>
                             </div>
 
-                            <h3 style={{ fontSize: 26, border: 'none', padding: 0, marginBottom: 20 }}>Inscreva-se para receber minhas últimas atualizações</h3>
+                            <h3 style={{ fontSize: 26, border: 'none', padding: 0, marginBottom: 20 }}>Subscribe to our newsletter</h3>
 
                             <form action="" className="newsletter">
-                                <input type="text" placeholder="Cadastre seu e-mail" />
-                                <button>Enviar</button>
+                                <input type="text" placeholder="Your email" />
+                                <button>Subscribe</button>
                             </form>
                         </div>
                     </div>

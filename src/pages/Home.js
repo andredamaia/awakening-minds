@@ -50,9 +50,9 @@ export default function Home() {
 
               <p>Estou aqui para te ajudar lado a lado a aprender a  viver uma vida feliz!</p>
 
-              <div className="red-box">
+              {/* <div className="red-box">
                 <a href="/">Clique Aqui</a> para saber mais sobre os tratamentos oferecidos e descobrir qual é o <a href="/">mais indicado para você.</a>
-              </div>
+              </div> */}
               
             </div>
           </div>

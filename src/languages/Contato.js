@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
+import $ from 'jquery';
 
 import '../styles/Contato.css';
 
@@ -9,6 +10,35 @@ import iconwhats from '../assets/icon-whats.png';
 import ig from '../assets/ig.png';
 
 export default function Contato() {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+    const [message, setMessage] = useState('');
+
+    function handleFormSubmit(e) {
+        e.preventDefault();
+
+        const data = {
+            name,
+            email,
+            phone,
+            message,
+        };
+
+        $('.button-mailing').html('Sending your message... <i class="fas fa-spinner fa-spin"></i>')
+
+        $.ajax({
+            url:'https://andressa-awakeningminds.com/mail/envia.php',
+            type:'POST',
+            data:data,
+            success:function(data){
+                console.log(data);
+                $('.button-mailing').addClass('button-mailing-ok');
+                $('.button-mailing').html('Email sended :) <i class="fas fa-check"></i>');
+            }
+        });
+    }
+
     return (
         <>
             <Helmet>
@@ -28,10 +58,10 @@ export default function Contato() {
                         </div>
 
                         <div className="col-12 col-md-3 endereco">
-                            <span className="title">Dubai’s Address</span>
+                            <span className="title">Address in Dubai</span>
                             <p>Dubai Marina - Dubai<br/> United Arab Emirates.</p>
 
-                            <span className="title">Brazil’s Address</span>
+                            <span className="title">Address in Brazil</span>
                             <p>Trindade - Florianópolis,<br/> Santa Catarina<br/> Brasil</p>
 
                             <span className="title">Telephone:</span>
@@ -39,23 +69,50 @@ export default function Contato() {
                         </div>
 
                         <div className="col-12 col-md-6">
-                            <form action="">
+                            <form onSubmit={handleFormSubmit}>
                                 <div className="input-block">
-                                    <input name="nome" id="nome" placeholder="Name" required />
+                                    <input 
+                                        name="nome" 
+                                        id="nome" 
+                                        placeholder="Name"
+                                        value={name}
+                                        onChange={e => setName(e.target.value)}
+                                        required 
+                                    />
                                 </div>
 
                                 <div className="input-block">
-                                    <input name="email" id="email" placeholder="E-mail" required />
+                                    <input 
+                                        name="email" 
+                                        id="email" 
+                                        placeholder="E-mail"
+                                        value={email}
+                                        onChange={e => setEmail(e.target.value)}
+                                        required 
+                                    />
                                 </div>
 
                                 <div className="input-block">
-                                    <input name="telefone" id="telefone" placeholder="Telephone" required />
+                                    <input 
+                                        name="telefone" 
+                                        id="telefone" 
+                                        placeholder="Telephone" 
+                                        value={phone}
+                                        onChange={e => setPhone(e.target.value)}
+                                    />
                                 </div>
 
                                 <div className="input-block text-center">
-                                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                    <textarea 
+                                        name="" 
+                                        id="" 
+                                        placeholder="Message"
+                                        value={message}
+                                        onChange={e => setMessage(e.target.value)}
+                                        required
+                                    ></textarea>
 
-                                    <button className="button-default">Send</button>
+                                    <button className="button-default button-mailing">Send</button>
                                 </div>
                             </form>
                         </div>

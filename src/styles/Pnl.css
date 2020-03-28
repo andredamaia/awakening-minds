@@ -93,3 +93,10 @@ h5 {
     color: #fff;
     font-family: 'Vidaloka', sans-serif;
 }
+
+@media (max-width: 1500px) {
+    .subtitle {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}

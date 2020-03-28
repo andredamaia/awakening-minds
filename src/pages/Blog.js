@@ -66,6 +66,17 @@ export default function Blog() {
                                 <button><img src={iconSearch} alt="Andressa" /></button>
                             </form>
 
+                            <div className="posts">
+                                <h2>Categories</h2>
+
+                                <Link Link to="/en/posts/spiritual-awakening-&-ego-death">
+                                    • Artigos
+                                </Link>
+                                <Link Link to="/en/posts/spiritual-awakening-&-ego-death">
+                                    • Vídeos
+                                </Link>
+                            </div>
+
                             <div className="tags">
                                 <h2>Tags</h2>
 

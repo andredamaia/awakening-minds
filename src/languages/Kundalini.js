@@ -142,7 +142,7 @@ export default function Kundalini() {
                     - Chest and head pressure, heart palpitations; <br />
                     - Feeling emotionally overwhelmed; <br />
                     - Body shaking, vibrating, jerking involuntarily; <br />
-                    - Ears humming, buzzing like bees Hearing people chanting, bells or flute sounds. <br />
+                    - Ears humming, buzzing like bees, Hearing people chanting, bells or flute sounds. <br />
                     - Temporary Psychic abilities: Clairvoyance, Claircognizance, Clairaudience, Clairsentience; <br />
                     - Chronic fatigue;
                   </p>
@@ -158,7 +158,7 @@ export default function Kundalini() {
                     - Astral projections; <br />
                     - Fear, anxiety, panic attacks, despair and/or depression; <br />
                     - Disorientation, obsessive thinking, paranoia;  <br />
-                    - Conscious expansion, heightened awareness;  <br />
+                    - Consciousness expantion, heightened awareness;  <br />
                     - Feelings of bliss, joy, peace, compassion and love; <br />
                     - Improvement of sight and hearing; <br />
                     - Spiritual devotion, curiosity.
@@ -204,7 +204,7 @@ export default function Kundalini() {
                 <div className="col-12 col-md-5 offset-md-3">
 
                   <p className="psicodelic-box">
-                  For support during your activation please get in touch to schedule a Skype call sending an email to <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a> or fill the box below and I will get back to you shortly.
+                  For support during your activation please get in touch to schedule a Skype call sending an email to <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a> or fill in the contact box below.
                   </p>
                 </div>
               </div>
@@ -215,7 +215,7 @@ export default function Kundalini() {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <p>Se você está passando por Emergência Espiritual ou Síndrome da Kundalini e está com dificuldades financeiras, envie também um e-mail explicando sua situação e farei o possível para te ajudar: <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a>
+                        <p>If you are facing a Spiritual Emergency or Kundalini Syndrome and are going through financial difficulties, send me an email explaining your experience and I will do everything in my power to help you too: <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a>
                         </p>
                     </div>
                 </div>

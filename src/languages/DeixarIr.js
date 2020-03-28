@@ -58,7 +58,7 @@ export default function Deixair() {
                         </div>
 
                         <div className="col-12 col-md-4 right">
-                            <p> While psychotherapy strives to adjust the Ego(personality) to a more health balance, replacing unsatisfactory mental programs with more satisfactory ones, Letting Go focus on elimination of these programming to a transcendence of the mind itself into higher states of consciousness of love and peace.</p>
+                            <p> While psychotherapy strives to adjust the Ego (personality) to a more health balance, replacing unsatisfactory mental programs with more satisfactory ones, Letting Go focus on eliminating these programming to a transcendence of the mind itself into higher states of consciousness of love and peace.</p>
                         </div>
 
                         <div className="col-12 text-center">

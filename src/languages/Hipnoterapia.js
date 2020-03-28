@@ -6,6 +6,7 @@ import '../styles/Hipnoterapia.css';
 import hipimg1 from '../assets/hip-img-1.png';
 import imgbox from '../assets/img-box.png'
 import iceberg from '../assets/iceberg.png'
+import icebergMobile from '../assets/iceberg-mobile.png'
 
 export default function Hipnoterapia() {
     return (
@@ -47,7 +48,7 @@ export default function Hipnoterapia() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-9"> 
-                            <p>Imagine you have a box and inside of it you place all your emotions, thoughts, habits, believes and impressions. Imagine that everything you consider right or wrong, good or bad, fair or unfair is placed right there inside that box. Everything you experience through your five senses creates an impression, those impressions when experienced frequently become a belief and those believes will be installed in your subconscious mind as a programming which you can’t see but it is there ruling your life.</p>
+                            <p>Imagine you have a box and inside of it you place all your emotions, thoughts, habits, beliefs and impressions. Imagine that everything you consider right or wrong, good or bad, fair or unfair is placed right there inside that box. Everything you experience through your five senses creates an impression, those impressions when experienced frequently become a belief and those believes will be installed in your subconscious mind as a programming which you can’t see but it is there ruling your life.</p>
 
                             <p>That “little box” which is your subconscious mind containing all the things you believe to be You, will now project itself out and make sure that every thought you have, every word you say and every action you take brings more similar impressions to reinforce the current operating programming, regardless if they are beneficial or not for you. It is like you are inside a maze unable to get out walking in circles, always returning back to the starting point.</p>
 
@@ -83,25 +84,21 @@ export default function Hipnoterapia() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h4>Hypnotherapy is a fantastic door that allows you to access “the box” and identify those limiting believes replacing them with positive ones.</h4>
+                            <h4>Hypnotherapy is a fantastic door that allows you to access “the box” and identify those limiting beliefs replacing them with positive ones.</h4>
 
                             <div className="col-12 col-md-8 offset-md-1">
 
-                                <p className="text-iceberg">During a hypnotherapy session you will be guided to a deeper state of relaxation where the subconscious mind can be accessed. You will then receive instructions to look for specific memories, feeling and images. The therapist will then flood the subconscious with positive suggestions to break and replace the old patters.
+                                <p className="text-iceberg">During a hypnotherapy session you will be guided to a deeper state of relaxation where the subconscious mind can be accessed. You will then receive instructions to look for specific memories, feeling and images. The professional will then flood the subconscious with positive suggestions to break and replace the old patters.
                                 </p>
                             </div>
                         </div>
 
                         <div className="col-12 col-md-8 before-red-box">
-                            <p>Hypnotherapy can be used to treat stress, cigarettes addiction, improve relationships, increase self steam, help create financial abundance through self worth and an I can do it attitude. It is also beneficial to create a healthier life style, weight loss, desire to exercise. It radically improves public speaking and also treats anger, shame, guilt and regret- heavy emotions which usually are a burden to carry through life.</p>
+                            <p>Hypnotherapy can be used to treat stress, cigarettes addiction, improve relationships, increase self-steam, help create financial abundance through self worth and an I can do it attitude. It is also beneficial to create a healthier life style, weight loss, desire to exercise. It radically improves public speaking and also treats anger, shame, guilt and regret- heavy emotions which usually are a burden to carry through life.</p>
                         </div>
 
                         <div className="col-12 d-md-none">
-                            <img 
-                                src={iceberg} 
-                                style={{ maxWidth: '100%', marginBottom: 30, marginRight: -30, left: 15, position: 'relative' }} 
-                                alt="" 
-                            />
+                            <img src={icebergMobile} style={{ maxWidth: '100%', marginBottom: 20 }} alt="" />
                         </div>
 
                         <div className="col-12 col-md-5 box-left">
@@ -111,7 +108,7 @@ export default function Hipnoterapia() {
                         </div>
 
                         <div className="col-12 col-md-7 box-right">
-                            <p>Work, Relationships, Health, Financial abundance, Hobbies and how joyful you are. Now rate each one of them from 0-10, 0 being absolutely terrible and 10 being totally amazing. If you constantly see yourself getting in one or more categories a score lower than 8 then you definitely have a limiting belief determining your experience that is not serving you.</p>
+                            <p>Work, relationships, health, financial abundance, hobbies and how joyful you are. Now rate each one of them from 0-10, 0 being absolutely terrible and 10 being totally amazing. If you constantly see yourself getting in one or more categories a score lower than 8 then you definitely have a limiting belief determining your experience that is not serving you.</p>
                         </div>
                     </div>
                 </div>    
@@ -121,7 +118,7 @@ export default function Hipnoterapia() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center">
-                            <span>Everyone can be hypnotized, there is no loss of consciousness or Will and the patient is actively interacting during the session. It is safe and transformative!</span>
+                            <span>Everyone can be hypnotized, there is no loss of consciousness or Will and the client is actively interacting during the session. It is safe and transformative!</span>
                         </div>
                     </div>
                 </div>    

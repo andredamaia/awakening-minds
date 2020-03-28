@@ -45,14 +45,14 @@ export default function Home() {
 
               <img src={faces} className="img-right" alt="" />
 
-              <p>If you are reading this page, congratulations, you are ready to change! While many don't know their real potential and waste the chances that life gives to live fully, you have proved you do believe and that's enough to start your transformation. If instead spending months or years going for therapy without knowing for sure the real benefits you may or may not achieve, your intention is obtain real results in a short period of time, you are in the right place!</p>
+              <p>If you are reading this page, congratulations, you are ready to change! While many don't know their real potential and waste the chances that life gives to live fully, you have proved you do believe and that's enough to start your transformation. If instead of spending months or years going for therapy without knowing for sure the real benefits you may or may not achieve, your intention is to obtain real results in a short period of time, you are in the right place!</p>
 
-              <p>What if you could heal your past completely, forgive and be forgiven? What would happen if you could leave old habits and install new ones that will support your dreams? How would you feel after transforming your auto image where you see yourself as the miracle of life that you are: confident, smart, a being who deserves unconditional love? Do you want to be your best version now, don't you? </p>
+              <p>What if you could heal your past completely, forgive and be forgiven? What would happen if you could leave old habits and install new ones that will support your dreams? How would you feel after transforming your self image where you see yourself as the miracle of life that you are: confident, smart, a being who deserves unconditional love? Do you want to be your best version now, don't you? </p>
 
-              <p>I'm here to help you side by side learn to live happy life!</p>
+              <p>I'm here to help you side by side learn to live a <strong>Happy life</strong>!</p>
 
               {/* <div className="red-box">
-                <a href="/">Clique Aqui</a> para saber mais sobre os tratamentos oferecidos e descobrir qual é o <a href="/">mais indicado para você.</a>
+                <a href="/">Click here</a>  to know more about the treatments offered and find out which of them is the best for you.
               </div> */}
               
             </div>
@@ -66,9 +66,9 @@ export default function Home() {
             <div className="col-12 col-md-10 offset-md-1 text-center">
               <h3>Which are the Emotional Interventional techniques?</h3>
 
-              <p>Science suggests that 95% of human behavior comes from our Subconscious mind and only 5% is shaped consciously, thus the importance of Hypnosis, NLP and the Letting Go technique to access and reset patterns recorded and projected unconsciously. Through the Hypnotherapy, negative behavioral programming is quickly replaced by positive suggestions that allow the patient to obtain significative results in the area to be developed.</p>
+              <p>Science suggests that 95% of human behavior comes from our Subconscious mind and only 5% is shaped consciously, thus the importance of Hypnosis, NLP and the Letting Go Technique to access and reset patterns recorded and projected unconsciously. Through the Hypnotherapy, negative behavioral programming is quickly replaced by positive suggestions that allow the patient to obtain significative results in the area to be developed.</p>
 
-              <p>Whether through Emotional Intervention or Coaching, for personal or professional development, all sessions are customized in details to match the client's needs. My goal as a Therapist and Coach is to eliminate limiting beliefs and guide my clients to self knowledge and Emotional intelligence where they can regain their inner power and manifest the life they desire."</p>
+              <p>Whether through Emotional Intervention or Coaching, for personal or professional development, all sessions are customized in details to match the client's needs. My goal as a Coach is to eliminate limiting beliefs and guide my clients to self knowledge and Emotional intelligence where they can regain their inner power and manifest the life they desire.</p>
             </div>
 
             <div className="col-12 col-md-6 offset-md-3 text-uppercase">
@@ -84,13 +84,13 @@ export default function Home() {
 
                 <div className="col-12 col-md-4 text-icon">
                   <img src={flower} alt="" />
-                  <p>Accredited by Federation of NLP Coaching Professionals - FNLPCP.</p>
+                  <p>Accredited by Federation of NLP Coaching Professionals - FNLPCP</p>
 
                 </div>
 
                 <div className="col-12 col-md-4 text-icon">
                   <img src={yinyang} alt="" />
-                  <p>Accredited by Life & Spiritual Coach accredited by the International Coach Federation – ICF.</p>
+                  <p>Acredited in Life & Spiritual Coaching by The Continuing Coach Education - ICF</p>
 
                 </div>
               </div>
@@ -110,21 +110,21 @@ export default function Home() {
       </div>
 
       <div className="bg-missao">
-          <div className="container">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-md-10 offset-md-1">
               <div className="row">
-                  <div className="col-12 col-md-10 offset-md-1">
-                    <div className="row">
-                      <div className="col-12 col-md-3">
-                        <h2>Mission</h2>
-                    </div>
+                <div className="col-12 col-md-3">
+                  <h2>Mission</h2>
+                </div>
 
-                    <div className="col-12 col-md-9">
-                        <p>Awakening Minds Coaching & Emotional Health mission is to expand people’s consciousness level, impacting positively their lives so they find a path where happiness is the most natural state of living.</p>
-                    </div>
-                    </div>
-                  </div>
+                <div className="col-12 col-md-9">
+                  <p>Awakening Minds Coaching & Emotional Health mission is to expand people’s consciousness level, impacting positively their lives so they find a path where happiness is the most natural state of living.</p>
+                </div>
               </div>
+            </div>
           </div>
+        </div>
       </div>
     </>
   );

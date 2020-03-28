@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import '../styles/Pnl.css';
 
@@ -9,6 +10,11 @@ import manyfaces from '../assets/many-faces.png';
 export default function Pnl() {
     return(
         <>
+            <Helmet>
+                <title>P.N.L- Awakening Minds</title>
+                <meta name="description" content="Programação para sua evolução" />
+            </Helmet>
+
             <div className="bg-brain">
                 <div className="container">
                     <div className="row">

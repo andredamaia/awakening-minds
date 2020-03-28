@@ -1,5 +1,5 @@
 .bg-meditation {
-    background: url('../assets/bg-meditation.jpg') center center no-repeat;
+    background: url('../assets/bg-meditation.jpg') left center no-repeat;
     padding: 150px 0;
     background-size: cover;
     margin-top: 100px;
@@ -147,6 +147,38 @@ p.lotus-box {
     color: #fff;
 }
 
+.bg-meditation .text-right br { display: none; }
+.bg-meditation .text-right i { display: block; }
+.bg-meditation .text-right { max-width: 45%; float: right; }
+
+@media (max-width: 960px) {
+    .bg-meditation { padding: 60px 0; }
+    .text-amor { padding: 40px 0 20px; }
+
+    .spiritual-coach { padding: 20px 0 0; }
+
+    .bg-cave { padding: 20px 0 0; }
+    .bg-cave .img-left { width: 100% !important; }
+
+    .sintomas { padding: 20px 0 0; }
+
+    .bg-lotus { padding: 20px 0 0; }
+
+    .sintomas ul { padding: 0; }
+    .sintomas ul:last-child { margin-top: -15px; }
+
+    .bg-lotus img {
+        float: left;
+        margin: 0;
+        width: 100%;
+        margin-left: -20px;
+        margin-bottom: 30px;
+    }
+
+    .bg-meditation {
+        background: url('../assets/bg-meditation.jpg') -250px center no-repeat;
+    }
+}
 
 
 

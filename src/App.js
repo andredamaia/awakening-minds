@@ -25,7 +25,7 @@ const DespertarEN = lazy(() => import('./languages/Despertar'));
 const KundaliniEN = lazy(() => import('./languages/Kundalini'));
 const BlogEN = lazy(() => import('./languages/Blog'));
 const BlogPostEN = lazy(() => import('./languages/BlogPost'));
-// const ContatoEN = lazy(() => import('./languages/Contato'));
+const ContatoEN = lazy(() => import('./languages/Contato'));
 
 
 function App() {
@@ -73,7 +73,7 @@ function App() {
           <Route path="kundalini" element={<KundaliniEN />} />
           <Route path="blog" element={<BlogEN />} />
           <Route path="posts/:slug" element={<BlogPostEN />} />
-          {/* <Route path="contato" element={<ContatoEN />} /> */}
+          <Route path="/contact" element={<ContatoEN />} />
         </Route>
       </Routes>
 

@@ -20,7 +20,7 @@ export default function Despertar() {
                     <div className="row">
                         <div className="col-12">
                             <p className="text-right">"Até que tenhamos encontrado os monstros dentro de nós, vamos continuar<br/> 
-                            tentando matá-los no mundo exterior. Porque, toda a escuridão do Mundo vem<br/> 
+                            tentando matá-los no mundo exterior. Porque toda a escuridão do Mundo vem<br/> 
                             do coração e é lá que devemos trabalhar."<br/>
                             <i>Marianne Williamsom</i>
                             </p>
@@ -101,7 +101,7 @@ export default function Despertar() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-10 offset-md-1">
-                            <p>Somente após meu Despertar Espiritual que percebi que Ele habita dentro de mim. Que o mesmo poder que cria  Universos, também faz meu coração bater e digere o alimento que eu consumo. Aí então entendi o que Osho quer dizer com a frase: "Ore como um amante e não como um mendigo". Graças ao Despertar Espiritual agora estou conectada à fonte divina de criação, não coloco barreiras ao fluxo da vida, que é sempre tão generoso e amável, e aprendi também que ele sempre esteve disponível, basta nos abrir verdadeiramente à Graça que espera pacientemente seus filhos à retornarem para casa.
+                            <p>Somente após meu Despertar Espiritual que percebi que Ele habita dentro de mim. Que o mesmo poder que cria  Universos, também faz meu coração bater e digere o alimento que eu consumo. Aí então entendi o que Osho quer dizer com a frase: "Ore como um amante e não como um mendigo". Graças ao Despertar Espiritual agora estou conectada à fonte divina de criação, não coloco barreiras ao fluxo da vida, que é sempre tão generoso e amável, e aprendi também que ele sempre esteve disponível, basta nos abrir verdadeiramente à Graça que espera pacientemente seus filhos retornarem à casa
                             </p>
                         </div>
 
@@ -125,7 +125,7 @@ export default function Despertar() {
                             </ul>
                         </div>
 
-                        <div className="col-12 col-md-4 list-fadiga">
+                        <div className="col-12 col-md-5 list-fadiga">
                             <ul>
                                 <li>- Fadiga</li>
                                 <li>- Correntes de energia/eletricidade por todo o corpo</li>
@@ -142,7 +142,7 @@ export default function Despertar() {
                 <div className="container">
                     <div className="row">
 
-                        <div className="col-9 offset-md-2">
+                        <div className="col-12 col-md-9 offset-md-2">
                             <p>Os sintomas acima são somente físicos, normalmente vêm acompanhados de enormes mudanças mentais e emocionais, que abrirão espaço para o indivíduo se tornar seu Eu superior e ser então guiado por sua própria fonte de intuição e poder.</p>
 
                             <p>Durante meu  Despertar Espiritual, apos meses vivendo em uma montanha russa de emocoes, eu descobri a tecnica de Percepcao Temporal que permite em uma unica sessao remover toda e qualquer carga emocional negativa relacionada a Raiva, Dor, Medo, Culpa e Tristeza.</p>
@@ -157,7 +157,7 @@ export default function Despertar() {
                         <div className="col-12 col-md-7 ferramentas">
                             <p>	Com as ferramentas e comportamentos corretos que possibilitem a expansão da Consciência, a pessoa perceberá que estamos todos conectados ao Espírito e quando abrirmos a porta para receber as bênçãos que o Universo está disposto a proporcionar, começaremos então a manifestar reais milagres.</p>
 
-                            <p className="col-12 offset-md-4 lotus-box">
+                            <p className="col-12 col-md-8 offset-md-4 lotus-box">
                             Entre em contato para agendar sua sessão online preenchendo o quadro abaixo ou enviando e-mail para <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a>
                             </p>
                         </div>

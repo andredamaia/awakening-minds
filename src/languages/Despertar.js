@@ -19,9 +19,7 @@ export default function Despertar() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <p className="text-right">""Until we have met the monster in ourselves, we keep trying<br/> 
-                            to slay them in the outer World and we find that we can not. For all darkness in the World<br/> 
-                            steams from the heart and it is there that we must do our work""<br/>
+                            <p className="text-right">"Until we have met the monster in ourselves, we keep trying to slay them in the outer World and we find that we can not. For all darkness in the World steams from the heart and it is there that we must do our work"<br/>
                             <i>Marianne Williamsom</i>
                             </p>
                         </div>
@@ -35,7 +33,7 @@ export default function Despertar() {
                         <div className="col-12 col-md-10 offset-md-1">
                             <h2>Do you want to truly connect with your higher self and live a life fulfilled with love, abundance and joy?</h2>
 
-                            <p>	Most of us, without knowing we deserve and are capable of achieving more, settle for a life that may feel incomplete where we just live day after day hopping that somehow things will get better and we will eventually find happiness.</p>    
+                            <p>Most of us, without knowing we deserve and are capable of achieving more, settle for a life that may feel incomplete where we just live day after day hopping that somehow things will get better and we will eventually find happiness.</p>    
 
                             <p>What If I told you that you can be happy right now? That in this very moment you can connect to who you really are and in that place of connection there is no sense of lacking, unworthiness or pain.</p> 
                         </div>
@@ -71,7 +69,7 @@ export default function Despertar() {
 
                             <p>Another experience was in my 20s when a stranger man approached me and told me that God had a message for me: "I'm always with you, in every moment. When you hide at night by the river to cry, I'm also there with you. Like Job everything has been taken from you, like Job you shall be honored"</p>
 
-                            <p>Until that moment I had never spoken to any one about going to the river near my family's house to cry...I am so glad the message was sent to me and gave the strength I would need to overcome many difficult situations that were still to come.</p>
+                            <p>Until that moment I had never spoken to anyone about going to the river near my family's house to cry...I am so glad the message was sent to me and gave the strength I would need to overcome many difficult situations that were still to come.</p>
 
                         </div>
 
@@ -91,7 +89,7 @@ export default function Despertar() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-10 offset-md-1">
-                            <p>It was only after the Spiritual Awakening that I understood that God dwells in me. The same power that creates Universes keeps my heart beaten and digest the food I intake. I then understood what Osho means when he says "Pray like a lover, not like a beggar". Through the Spiritual awakening I am now connected to the divine source of creation, I no longer resist the flow of life which is so generous and loving and I learned that it has always been there for all of us, we only need to truly open ourselves to the grace which awaits patiently for Its children to return home.
+                            <p>It was only after the Spiritual Awakening that I understood that God dwells in me. The same power that creates Universes keeps my heart beaten and digest the food I intake. I then understood what Osho means when he says "Pray like a lover, not like a beggar". Through the Spiritual Awakening I am now connected to the divine source of creation, I no longer resist the flow of life which is so generous and loving and I learned that it has always been there for all of us, we only need to truly open ourselves to the grace which awaits patiently for Its children to return home.
                             </p>
                         </div>
 
@@ -114,7 +112,7 @@ export default function Despertar() {
                             </ul>
                         </div>
 
-                        <div className="col-12 col-md-4 list-fadiga">
+                        <div className="col-12 col-md-5 list-fadiga">
                             <ul>
                                 <li>- Fatigue</li>
                                 <li>- Currents of energy/electricity through the body</li>
@@ -131,7 +129,7 @@ export default function Despertar() {
                 <div className="container">
                     <div className="row">
 
-                        <div className="col-9 offset-md-2">
+                        <div className="col-12 col-md-9 offset-md-2">
                             <p>The above symptoms are only physical and they are usually accompanied by huge emotional and mental changes which open space for the individual to become his higher self and be guided by his own source of intuition and power.</p>
 
                             <p>During my Spiritual Awakening, after many months living in an emotional rollercoaster, I found the Time Paradigm technique which allows a person, in only one session, to get rid of all negative emotional baggage related to Anger, Hurt, Fear, Guilt and Sadness.</p> 
@@ -144,11 +142,10 @@ export default function Despertar() {
                         </div>
 
                         <div className="col-12 col-md-7 ferramentas">
-                            <p>With the right tools and behaviors to allow the consciousness expansion, the person will start 
-seeing that we are all connected to the Spirit and when he/she opens the door to receive all the blessings the Universe is happy to provide, real miracles will start to manifest.</p>
+                            <p>With the right tools and behaviors to allow the consciousness expansion, the person will start seeing that we are all connected to the Spirit and when he/she opens the door to receive all the blessings the Universe is  happy to provide, real miracles will start to manifest.</p>
 
-                            <p className="col-12 offset-md-4 lotus-box">
-                            Entre em contato para agendar sua sessão online preenchendo o quadro abaixo ou enviando e-mail para <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a>
+                            <p className="col-12 col-md-8 offset-md-4 lotus-box">
+                            Get in touch to schedule your online session filling in the contact box below or send an email to: <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a>
                             </p>
                         </div>
                     </div>
@@ -160,7 +157,7 @@ seeing that we are all connected to the Spirit and when he/she opens the door to
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <p>Se você está passando por Emergência Espiritual ou Síndrome da Kundalini e está com dificuldades financeiras, envie também um e-mail explicando sua situação e farei o possível para te ajudar: <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a></p>
+                            <p>If you are facing a Spiritual Emergency or Kundalini Syndrome and are going through financial difficulties, send me an email explaining your experience and I will do everything in my power to help you too: <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a></p>
                         </div>
                     </div>
                 </div>

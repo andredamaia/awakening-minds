@@ -10,16 +10,17 @@ header {
     height: 130px;
 }
 
+header .col-md-3 img { max-width: 100%; }
+
 header ul {
     position: relative;
-    background: #ffffff;
     text-align: right;
     margin-top: 15px;
   }  
   
   header li { 
     display: inline-block; 
-    margin-right: 25px;
+    margin-right: 20px;
     position: relative;
   }
     header li:first-child::before { display: none; }

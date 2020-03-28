@@ -65,7 +65,7 @@ function Footer() {
                             </form>
                         </div>
 
-                        <div className="col-12 col-md-3">
+                        {/* <div className="col-12 col-md-3">
                             <div>
                                 <div>
                                     <span className="depoimento">Eu encontrei a minha melhor versão depois do tratamento, me sentindo mais completo e saudável.</span>
@@ -76,11 +76,11 @@ function Footer() {
                                     </span>
                                 </div>
                             </div>
-                        </div>
-
-                        {/* <div className="col-12 col-md-3 text-center">
-                            <img src={ig} style={{ maxWidth: '100%' }} alt="" />
                         </div> */}
+
+                        <div className="col-12 col-md-3 text-center">
+                            <img src={ig} style={{ maxWidth: '100%' }} alt="" />
+                        </div>
 
                         <div className="col-12 text-center copyright-holder">
                             <a href="https://www.facebook.com/andressaawakeningminds/" target="_blank" rel="noopener noreferrer"><img src={iconfacebook} alt="" /></a>

@@ -5,6 +5,10 @@
     background-size: cover;
 }
 
+@media (max-width: 960px){
+    .hip-blue { background: url('../assets/bg-hip-1.jpg') center center no-repeat; background-size: cover; }
+}
+
 .hip-rock {
     background: url('../assets/bg-hip-2.jpg') no-repeat;
     width: 100%;
