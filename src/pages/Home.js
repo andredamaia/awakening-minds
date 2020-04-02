@@ -48,7 +48,7 @@ export default function Home() {
 
               <p>E se você pudesse curar todo seu passado, perdoar e ser perdoado por tudo que já aconteceu? O que aconteceria se você pudesse deixar os hábitos que não te beneficiam e programar outros que suportam seus sonhos? Como você se sentiria ao transformar sua auto imagem, na qual se vê como do milagre que é, confiante, inteligente e um ser que merece amor incondicional? Você quer ser sua melhor versão, não quer? </p>
 
-              <p>Estou aqui para te ajudar lado a lado a aprender a  viver uma vida feliz!</p>
+              <p>Estou aqui para te ajudar lado a lado a aprender a  viver uma <strong>vida feliz!</strong></p>
 
               {/* <div className="red-box">
                 <a href="/">Clique Aqui</a> para saber mais sobre os tratamentos oferecidos e descobrir qual é o <a href="/">mais indicado para você.</a>
@@ -118,7 +118,7 @@ export default function Home() {
                     </div>
 
                     <div className="col-12 col-md-9">
-                        <p><i>Awakening Minds Coaching & Emotional Health</i> tem a missão de expandir o nível de consciência das pessoas, impactando positivamente suas vidas para que encontrem um caminho onde a <strong>felicidade seja o estado mais natural de viver.</strong></p>
+                        <p><i>Awakening Minds Emotional Health  & Coaching</i> tem a missão de expandir o nível de consciência das pessoas, impactando positivamente suas vidas para que encontrem um caminho onde a <strong>felicidade seja o estado mais natural de viver.</strong></p>
                     </div>
                     </div>
                   </div>

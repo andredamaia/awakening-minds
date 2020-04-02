@@ -19,9 +19,9 @@ export default function Despertar() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <p className="text-right">"Até que tenhamos encontrado os monstros dentro de nós, vamos continuar<br/> 
-                            tentando matá-los no mundo exterior. Porque toda a escuridão do Mundo vem<br/> 
-                            do coração e é lá que devemos trabalhar."<br/>
+                            <p className="text-right">"Até que tenhamos encontrado os monstros dentro de nós, vamos continuar <br/> 
+                            tentando matá-los no mundo exterior. Porque toda a escuridão do Mundo vem <br/> 
+                            do coração e é lá que devemos trabalhar." <br/>
                             <i>Marianne Williamsom</i>
                             </p>
                         </div>
@@ -101,8 +101,7 @@ export default function Despertar() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-10 offset-md-1">
-                            <p>Somente após meu Despertar Espiritual que percebi que Ele habita dentro de mim. Que o mesmo poder que cria  Universos, também faz meu coração bater e digere o alimento que eu consumo. Aí então entendi o que Osho quer dizer com a frase: "Ore como um amante e não como um mendigo". Graças ao Despertar Espiritual agora estou conectada à fonte divina de criação, não coloco barreiras ao fluxo da vida, que é sempre tão generoso e amável, e aprendi também que ele sempre esteve disponível, basta nos abrir verdadeiramente à Graça que espera pacientemente seus filhos retornarem à casa
-                            </p>
+                            <p>Somente após meu Despertar Espiritual que percebi que Ele habita dentro de mim. Que o mesmo poder que cria  Universos, também faz meu coração bater e digere o alimento que eu consumo. Aí então entendi o que Osho quer dizer com a frase: "Ore como um amante e não como um mendigo". Graças ao Despertar Espiritual agora estou conectada à fonte divina de criação, não coloco barreiras ao fluxo da vida, que é sempre tão generoso e amável, e aprendi também que ele sempre esteve disponível, basta nos abrir verdadeiramente à Graça que espera pacientemente seus filhos retornarem à casa.</p>
                         </div>
 
                         <div className="col-12 col-md-3 offset-md-1">

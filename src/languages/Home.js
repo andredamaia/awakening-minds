@@ -119,7 +119,7 @@ export default function Home() {
                 </div>
 
                 <div className="col-12 col-md-9">
-                  <p>Awakening Minds Coaching & Emotional Health mission is to expand people’s consciousness level, impacting positively their lives so they find a path where happiness is the most natural state of living.</p>
+                  <p>Awakening Minds Emotional Health & Coaching mission is to expand people’s consciousness level, impacting positively their lives so they find a path where happiness is the most natural state of living.</p>
                 </div>
               </div>
             </div>

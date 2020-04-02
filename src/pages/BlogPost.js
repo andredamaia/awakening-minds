@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import '../styles/Blog.css';
 
-import blog1 from '../assets/img-blog.jpg';
+import blog1 from '../assets/ego.jpg';
 import calendar from '../assets/calendar.png';
 import folder from '../assets/folder.png';
 
@@ -12,20 +12,20 @@ export default function BlogPost() {
     return (
         <>
             <Helmet>
-                <title>Spiritual Awakening & Ego death</title>
-                <meta name="description" content="Thinking about your little self, the separated one that you created when you were around 07-09 years old, the little Me. After identifying to that character who has a name, an address, plays specific sport at Scholl and has a toy that he/she loves, that little you (Ego) has grow out of control and now rules the real you!" />
+                <title>Despertar Espiritual e morte do Ego</title>
+                <meta name="description" content="Pensando sobre o seu pequeno “Eu”, aquele que esta separado e foi criado quando você tinha entre 7 e 9 anos. Depois de se identificar com aquele personagem que tem um nome, um endereco, faz algum esporte na escola e tem um brinquedo que adora, aquele pequeno “Eu” (Ego) cresceu fora de controle e agora comanda o seu “Eu real”." />
             </Helmet>
 
             <div className="bg-blog">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-8 offset-md-2 text-center">
-                            <h2>Spiritual Awakening & Ego death</h2>
+                            <h2>Despertar Espiritual e morte do Ego</h2>
                         </div>
 
                         <div className="col-12 col-md-8 offset-md-2">
                             <div className="box-blog">
-                                <img src={blog1} style={{ marginBottom: 40 }} alt="" />
+                                <img src={blog1} style={{ marginBottom: 40, width: '100%' }} alt="" />
 
                                 <div className="row d-flex align-items-center" style={{ marginBottom: 40 }}>
                                     <div className="col-12 text-center">
@@ -34,37 +34,33 @@ export default function BlogPost() {
                                     </div>
                                 </div>
 
-                                <p>Thinking about your little self, the separated one that you created when you were around 07-09 years old, the "little Me". After identifying to that character who has a name, an address, plays specific sport at Scholl and has a toy that he/she loves, that little you (Ego) has grow out of control and now rules the real you!</p>
+                                <p>Pensando sobre o seu pequeno “Eu”, aquele que esta separado e foi criado quando você tinha entre 7 e 9 anos. Depois de se identificar com aquele personagem que tem um nome, um endereco, faz algum esporte na escola e tem um brinquedo que adora, aquele pequeno “Eu” (Ego) cresceu fora de controle e agora comanda o seu “Eu real”.</p>
 
-                                <p>When going through a Spiritual Awakening, if you are persistent enough, strong enough and mature enough to embrace the process, that little self will end up dead. That's right! The fundamental truth will be revealed when your Ego dissolves, is annihilated, excruciated, terminated so the shiny, pure, loving and wise Self will awake from it's slumber and take the place has always belonged to him.</p>
+                                <p>Quando passando por um Despertar Espiritual, se você for persistente o suficiente, forte o suficiente e maduro o suficiente para abracar o processo, aquele pequeno “Eu” vai acabar morto. Isso mesmo! A verdade fundamental sera revelada quando seu Ego for dissolvido, aniquilado, excruciado, terminado, entao o verdadeiro Eu que é brilhante, puro, amoroso e sabio acordara do seu sono e tomara de volta o lugar que sempre o pertenceu.</p>
 
-                                <p>Going through an Ego death can be terrifying. You see day by day it loosing its illusionary power and clinging deeper in your mind. It is desperate, doesn't want to give up control, it actually feeds on control, worry and fear. It will make your head spin, will tell you crazy stories, will grab your attention on things it knows you care the most about. Don't listen to it, you got to open space to the real you to be born again.</p>
+                                <p>Passar pela morte do Ego pode ser aterrorizante, ver dia apos dia ele perdendo seu poder ilusorio e se agarrando mais profundamente na sua mente. Ele esta desesperado, nao quer deixar o controle, na verdade ele se alimenta de controle,  preocupacao e medo. Ele vai fazer sua cabeca girar, vai te contar estorias loucas, vai segurar a sua atencao em coisas que ele sabe que sao as mais importantes pra você. Nao de ouvidos, voce precisar abrir espaco para que o seu verdadeiro Eu renasca outra vez.</p>
 
-                                <p>As you start purging emotional baggage and find various programming and limiting beliefs about yourself and the World, the Ego starts fading away. It can be scary to wake up one morning and notice that you barely have any thoughts. Why is mind so clear? Where is "me" in my mind? OMG, I must be losing it, where is my little me?</p>
+                                <p>Quando você comeca a limpar sua bagagem emocional e encontrar diversas programações e crensças limitantes sobre você e o Mundo, seu Ego começa a desaparecer. Pode ser assustador acordar uma manhã e perceber que você mal tem pensamentos. Por que minha mente esta tao clara? Onde esta meu pequeno “Eu” na minha mente? Meu Deus, eu devo estar enlouquecendo, onde o “Eu” esta?</p>
 
-                                <p>If you are feeling this way, congratulations my friend, you are on the fast speed motorway to Freedom! Embrace it, cherish it, dive in the clean waters of stillness. Rejoice in the infinite power of silence, that is where the real you is and is coming to give you back the peace, love and joy that is yours by right!</p>
+                                <p>Se você esta se sentindo assim parabens meu amigo, você esta na auto-estrada de alta velocidade rumo a Liberdade! Abrace isto, estime, alegre-se no poder infinito do silencio, é ali que seu real Eu esta e vira te devolver a paz, amor e felicidade que são seus por direito.</p>
 
-                                <p>In the beginning there may be panic, confusion, disillusion as you see everything you believed you were was only an illusion. That perhaps you don't like your job at all and feel compelled to leave it. Maybe you realized that the relationship you are currently in is everything you never dreamed about so it falls apart. When suddenly you feel the need to cut toxic people and situations from your life as they haven't brought you joy and now you know, oh now you have discovered that you do deserve all the joy in the World and you are not settling for less.</p>
+                                <p>No inicio podera haver panico, confusão e desilusão quando perceber que tudo que acreditava ser você era apenas uma ilusão. Que talvez você realmente não gosta do seu trabalho e entao decide deixa-lo, que talvez o relacionamento em que esta é tudo  oque você nunca sonhou e então ele começa a desmoronar. Quando você sente que precisa cortar pessoas e situações toxicas da sua vida pois nunca lhe trouxeram alegria, e agora sabe, ahhh agora você descobriu que merece toda a alegria do Mundo e não aceitara nada a menos que isso.</p>
 
-                                <p>As one is thrown in the abysm to find a little cave to hide and purge out all their darkness, he will also be put in test. More situations or people will come to distract you. If you notice you are constantly thinking about it, which is an Ego issue, don't hesitate to return to your lovely, empty space and send those people away.</p>
+                                <p>Enquanto a pessoa é jogada no abismo para encontrar uma pequena caverna para se econder e liberar toda a sua escuridão, ela tambem sera colocada em teste. Mais pessoas e situações apareceram para te destrair. Se perceber que esta pensando muito em algo, oque é um problema do Ego, nao hesite em voltar para seu aconchegante espaço vazio e enviar estas pessoas para bem longe.</p>
 
-                                <p>You need peace, you need to break through so enforce your boundaries and don't get caught up on drama and forget again what you here to do. You are here to find your way back home and the way is through the high speed motorway surrounded by stillness and emptiness which involve your higher Self.</p>
+                                <p>Você precisa de paz, precisa se libertar então emponha seus limites e não se envolva em drama e esqueça novamente o que veio fazer aqui.  Você esta aqui para encontrar o caminho de casa, e o caminho é atraves da auto-estrada  rodeada de quietude e vazio que envolve o seu Eu Superior.</p>
 
-                                <p>You need to be strong as Maia will tempt you but you are not your mind so be focused in the present moment without getting lost in the past or wandering in the future. </p>
+                                <p>Seja forte porque Maia te tentara, mas você nao é sua mente então foque no momento presente e não se perca no passado ou vague no futuro. Sua vida esta acontecendo agora então faça um favor a si mesmo e se torne o mestre da sua mente. Como Eckart Tolle explica, “A coisa mais vital na vida spiritual é ser capaz de assitir sua mente, de ser o observador da mente, assim ela não estara controlando você”, entao Medite, Medite, Medite! Com pratica a meditação se tornara seu estado natural a medida que seus pensamentos estao se tornando mais e mais raros, e nossa, como isso é bom! Quanto mais no presente ficar, mais abalara as estruturas do Ego. Enquanto você ainda deve estar passando por uma completa trasformação interna e externa, você ja encontrou aquele lugar legal, pacific e calmo para ficar. Estar no presente vai eliminar toda ansiedade e dar a você a coragem e força que necessita para que continue avançando mais e mais profundamente.</p>
 
-                                <p>Your life is happening now so do yourself a favor and be the master of your mind! As Eckart Tolle says "The most vital thing in spiritual life is to be able to watch your mind, to be the observer of your mind, so that the mind is not controlling you" so Meditate, Meditate, Meditate!</p>
+                                <p>Neste estagio, você ja deve estar passando por mudanças de niveis de consciencia, o Mundo esta se abrindo para você mais brilhante que nunca. Você ve as cores vividas, as formas, tudo esta se desdobrando diante dos seus olhos. Você se pergunta como é possivel que nunca tivesse prestado atenção nestes detlahes, como você pode ser tão cego  não notando a vida, o ceu, as flores, seu real reflex no espelho. Você percebe então que é tambem um milagre, que tudo que existe é um real, vivo milagre.</p>
 
-                                <p>With practice, meditation will become your natural state, you will realize that thoughts are getting rarer and rarer and oh boy, that feels so good!! The more in the present you are the more you shake the foundations of the Ego. While you still may be going through a complete inner and outer transformation, you have already found the cool, peaceful and still spot where you can hang out. Being in the present will eliminate anxiety and will give you the courage and strength you need to continue to dig deeper and deeper.</p>
+                                <p>Com sua mente calma, todos os seus sentidos sao ampliados entao você ouve a chuva la fora, os passarinhos cantando, as pessoas rindo. Você  sente o toque suave da briza doce no seu rosto, nos seus bracos, em suas mãos. Você se pergunta se esta se tornando um Super Humano haha. De certa forma você esta de fato, esta aprendendo a viver novamente como uma criança pequena redescobrindo a beleza do Mundo.</p>
 
-                                <p>At this stage you might also be going through shifts in consciousness. The World is opening up for you brighter and brighter as never before. You see things vividly, the colors, the shapes, everything is unfolding in front of your eyes. You are asking yourself, how had you never paid attention to these details, how could you be so blind and you never really noticed life, the sky, the flowers, your real reflection in the mirror. You found out that you are a miracle, that Everything is a real, live miracle!</p>
+                                <p>Depois do furacão inicial que você passou, agora você é capaz de sustentar por mais tempo seu espaco interior, você ja nao teme não encontrar aquele pequeno Eu pela manha, agora você esta determinado a ajudar no processo e quer ter a certeza que conquistara a real Liberdade.</p>
 
-                                <p>With your mind quieter all your senses are enhanced so you listen to the rain outside, the birds chirping, people laughing, you feel the soft touch of the sweet breeze on your face, around your arms, on your hands. You wonder if you are becoming a super human lol. In certain ways you are indeed, you are learning how to live again, like a little child rediscovering the beauty of the World.</p>
+                                <p>Para suporte durante o Despertar Espiritual, principalmente na fase de desintegração do Ego, entre em contato atraves do email: <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a></p>
 
-                                <p>After the initial hurricane that you went through, now you are able to sustain longer the inner space. You no longer fear not finding your little self in the morning. Now you are determined to help the process and make sure you achieve real Freedom.</p>
-
-                                <p>For support during your awakening, specially during the Ego Death phase, please contact me on: <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a></p>
-
-                                <Link to="/blog" className="link-back">Voltar</Link> 
+                                <Link to="/pt/blog" className="link-back">Voltar</Link> 
                             </div>
                         </div>
                     </div>

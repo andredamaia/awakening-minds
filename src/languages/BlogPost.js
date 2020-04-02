@@ -64,7 +64,7 @@ export default function BlogPost() {
 
                                 <p>For support during your awakening, specially during the Ego Death phase, please contact me on: <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a></p>
 
-                                <Link to="/en/blog" className="link-back">Back</Link> 
+                                <Link to="/blog" className="link-back">Back</Link> 
                             </div>
                         </div>
                     </div>

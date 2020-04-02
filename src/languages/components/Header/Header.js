@@ -22,16 +22,20 @@ function Header(){
             <header>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-12 col-md-3">
-                            <Link to="/en"><img src={logo} alt="" /></Link>
+                        <div className="col-8 col-md-3">
+                            <Link to="/"><img src={logo} alt="" /></Link>
+                        </div>
+
+                        <div className="col-3 d-md-none">
+                            <a href="/pt" style={{ transform: 'translateY(4px)', display: 'inline-block' }}><img src={brazil} alt="" /></a>
                         </div>
                         
                         <div className="col-12 col-md-9 d-none d-md-block">
                             <ul>
                                 <li>
                                     <Link 
-                                        to="/en"
-                                        className={ location.pathname === '/en' ? "active" : "" }
+                                        to="/"
+                                        className={ location.pathname === '/' ? "active" : "" }
                                     >
                                         Home
                                     </Link>
@@ -39,8 +43,8 @@ function Header(){
 
                                 <li>
                                     <Link 
-                                        to="/en/hypnotherapy"
-                                        className={ location.pathname === '/en/hypnotherapy' ? "active" : "" }
+                                        to="/hypnotherapy"
+                                        className={ location.pathname === '/hypnotherapy' ? "active" : "" }
                                     >
                                         Hypnotherapy
                                     </Link>
@@ -48,8 +52,8 @@ function Header(){
                                 
                                 <li>
                                     <Link 
-                                        to="/en/nlp"
-                                        className={ location.pathname === '/en/nlp' ? "active" : "" }
+                                        to="/nlp"
+                                        className={ location.pathname === '/nlp' ? "active" : "" }
                                     >
                                         NLP
                                     </Link>
@@ -57,8 +61,8 @@ function Header(){
 
                                 <li>
                                     <Link 
-                                        to="/en/letting-go"
-                                        className={ location.pathname === '/en/letting-go' ? "active" : "" }
+                                        to="/letting-go"
+                                        className={ location.pathname === '/letting-go' ? "active" : "" }
                                     >
                                         Letting Go
                                     </Link>
@@ -66,27 +70,27 @@ function Header(){
 
                                 <li>
                                     <Link 
-                                        to="/en/life-coaching"
+                                        to="/life-coaching"
                                         className={ 
-                                            location.pathname === '/en/life-coaching' || 
-                                            location.pathname === '/en/spiritual-awakening' || 
-                                            location.pathname === '/en/kundalini' ? "active" : "" 
+                                            location.pathname === '/life-coaching' || 
+                                            location.pathname === '/spiritual-awakening' || 
+                                            location.pathname === '/kundalini' ? "active" : "" 
                                         }
                                     >
                                         Coaching
                                     </Link>
 
                                     <ul className="list-dropdown">
-                                        <li><Link to="/en/life-coaching">Life coaching</Link></li>
-                                        <li><Link to="/en/spiritual-awakening">Spiritual Awakening</Link></li>
-                                        <li><Link to="/en/kundalini">Kundalini</Link></li>
+                                        <li><Link to="/life-coaching">Life coaching</Link></li>
+                                        <li><Link to="/spiritual-awakening">Spiritual Awakening</Link></li>
+                                        <li><Link to="/kundalini">Kundalini</Link></li>
                                     </ul>
                                 </li>
 
                                 <li>
                                     <Link 
-                                        to="/en/blog"
-                                        className={ location.pathname === '/en/blog' ? "active" : "" }
+                                        to="/blog"
+                                        className={ location.pathname === '/blog' ? "active" : "" }
                                     >
                                         Blog
                                     </Link>
@@ -94,15 +98,15 @@ function Header(){
 
                                 <li>
                                     <Link 
-                                        to="/en/contact"
-                                        className={ location.pathname === '/en/contact' ? "active" : "" }
+                                        to="/contact"
+                                        className={ location.pathname === '/contact' ? "active" : "" }
                                     >
                                         Contact
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <a href="/"><img src={brazil} alt="" /></a>
+                                    <a href="/pt"><img src={brazil} alt="" /></a>
                                 </li>
                             </ul>
                         </div>

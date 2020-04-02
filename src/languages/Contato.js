@@ -15,10 +15,13 @@ export default function Contato() {
     const [phone, setPhone] = useState('');
     const [message, setMessage] = useState('');
 
+    const lang = 'EN';
+
     function handleFormSubmit(e) {
         e.preventDefault();
 
         const data = {
+            lang,
             name,
             email,
             phone,
@@ -34,7 +37,14 @@ export default function Contato() {
             success:function(data){
                 console.log(data);
                 $('.button-mailing').addClass('button-mailing-ok');
-                $('.button-mailing').html('Email sended :) <i class="fas fa-check"></i>');
+                $('.button-mailing').html('Message sent :) <i class="fas fa-check"></i>');
+
+                setName('');
+                setEmail('');
+                setPhone('');
+                setMessage('');
+
+                setTimeout(function(){ $('.button-mailing').html('Send'); }, 2000);
             }
         });
     }
@@ -50,7 +60,7 @@ export default function Contato() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-6 offset-md-3 text-center">
-                            <p>Get in touch for us to talk and schedule your free assessment. Just fill the blanks bellow or e-mail to <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a></p>
+                            <p>Get in touch to schedule your online session filling in the contact box below or send an email to: <a href="mailto:am@andressa-awakeningminds.com">am@andressa-awakeningminds.com</a></p>
                         </div>
 
                         <div className="col-12 contato">
@@ -83,6 +93,7 @@ export default function Contato() {
 
                                 <div className="input-block">
                                     <input 
+                                        type="email"
                                         name="email" 
                                         id="email" 
                                         placeholder="E-mail"

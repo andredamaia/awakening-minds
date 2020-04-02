@@ -52,8 +52,7 @@ export default function Coaching() {
 
               <div className="grid-col-1">
                 <div>
-                  <p><strong>Te ajudar a encontrar o caminho para 
-sua felicidade e percorrê-lo ao seu lado</strong>
+                  <p><strong>Te ajudar a encontrar o caminho para sua felicidade e percorrê-lo ao seu lado</strong>
                   </p>
                 </div>
               </div>

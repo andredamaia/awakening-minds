@@ -70,7 +70,7 @@ export default function Coaching() {
               <p>My coaching is for you if you:</p>
 
               <p>
-                - A guaranteed path to your happiness and to bring out the best in you <br />
+                - Want to learn a meaningful approach to life  that truly empowers you, unlocks your true potential and enable you to create, achieve and become what you want in life. <br />
                 - Want guarantee that you will resolve your own perceived life burdens/emotional baggage from the past, replace any limiting beliefs for the desired ones, find in-depth understanding of who you are and how you got to be where you are now, resolve internal conflicts and become the master of your own mind and destiny. <br />
                 - Want to be treated with love, respect and care, receiving unrivaled support and consistency before, during and after the coaching sessions.
               </p>

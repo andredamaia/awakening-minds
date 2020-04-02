@@ -1,8 +1,8 @@
 import React, { lazy, useEffect, useState } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import Header from './languages/components/Header/Header';
+import Footer from './languages/components/Footer/Footer';
 
 const Home = lazy(() => import('./pages/Home'));
 const Hipnoterapia = lazy(() => import('./pages/Hipnoterapia'));
@@ -35,7 +35,7 @@ function App() {
     function usePageViews() {
         useEffect(() => {
             const url = location.pathname;
-            const checkLangUrl = url.includes("/en");
+            const checkLangUrl = url.includes("/pt");
 
             if(checkLangUrl) {
               setLang(true);
@@ -50,30 +50,30 @@ function App() {
       { lang ? '' : <Header /> }
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/hipnoterapia" element={<Hipnoterapia />} />
-        <Route path="/pnl" element={<Pnl />} />
-        <Route path="/deixar-ir" element={<DeixarIr />} />
-        <Route path="/life-coaching" element={<LifeCoaching />} />
-        <Route path="/despertar-espiritual" element={<Despertar />} />
-        <Route path="/kundalini" element={<Kundalini />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/posts/:slug" element={<BlogPost />} />
-        <Route path="/contato" element={<Contato />} />
+        <Route path="" element={<HomeEN />} />
+        <Route path="hypnotherapy" element={<HipnoterapiaEN />} />
+        <Route path="nlp" element={<PnlEN />} />
+        <Route path="letting-go" element={<DeixarIrEN />} />
+        <Route path="life-coaching" element={<LifeCoachingEN />} />
+        <Route path="spiritual-awakening" element={<DespertarEN />} />
+        <Route path="kundalini" element={<KundaliniEN />} />
+        <Route path="blog" element={<BlogEN />} />
+        <Route path="posts/:slug" element={<BlogPostEN />} />
+        <Route path="/contact" element={<ContatoEN />} />
       </Routes>
 
       <Routes>
-        <Route path="/en" element={<AppEN />}>
-          <Route path="" element={<HomeEN />} />
-          <Route path="hypnotherapy" element={<HipnoterapiaEN />} />
-          <Route path="nlp" element={<PnlEN />} />
-          <Route path="letting-go" element={<DeixarIrEN />} />
-          <Route path="life-coaching" element={<LifeCoachingEN />} />
-          <Route path="spiritual-awakening" element={<DespertarEN />} />
-          <Route path="kundalini" element={<KundaliniEN />} />
-          <Route path="blog" element={<BlogEN />} />
-          <Route path="posts/:slug" element={<BlogPostEN />} />
-          <Route path="/contact" element={<ContatoEN />} />
+        <Route path="/pt" element={<AppEN />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/hipnoterapia" element={<Hipnoterapia />} />
+          <Route path="/pnl" element={<Pnl />} />
+          <Route path="/deixar-ir" element={<DeixarIr />} />
+          <Route path="/life-coaching" element={<LifeCoaching />} />
+          <Route path="/despertar-espiritual" element={<Despertar />} />
+          <Route path="/kundalini" element={<Kundalini />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/posts/:slug" element={<BlogPost />} />
+          <Route path="/contato" element={<Contato />} />
         </Route>
       </Routes>
 

@@ -130,7 +130,7 @@ export default function Kundalini() {
               <div className="col-12 col-md-4">
                 <p>While some experience a gentle and blissful awakening, many can go through very difficult physical and emotional symptoms. Some people are alarmed and get admitted to a hospital believing they are having a heart attack or a stroke during the activation, just to find out the body is perfectly fine.</p> 
 
-                <p>Kundalini can activate after a Spiritual Awakening of preceding it and the most common witnessed symptoms when experiencing a Kundalini awakening are:</p>
+                <p>Kundalini can activate after a Spiritual Awakening or preceding it and the most common witnessed symptoms when experiencing a Kundalini awakening are:</p>
               </div>
 
               <div className="col-12 col-md-4">

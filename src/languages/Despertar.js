@@ -49,7 +49,7 @@ export default function Despertar() {
 
                             <h3 style={{ border: 'none' }}>Whether you are tired of facing the same situations and negative emotions over and over again and want to change your life for better; or you have already experienced a spontaneous Spiritual Awakening, I'm here to support you to walk your path with awareness, confidence and gratitude.</h3>
 
-                            <p className="col-12 col-md-10 offset-md-1">When I had my spiritual awakening years ago, I came across a liberating yet scary path. I was liberated through suffering and I noticed there are other ways to climb the mountain and it became my mission to assist others on their journey to freedom.</p>
+                            <p className="col-12 col-md-10 offset-md-1">When I had my spiritual awakening years ago, I came across a liberating yet scary path. I was liberated through suffering and I noticed that there are other ways to climb the mountain and it became my mission to assist others on their journey to freedom.</p>
 
                             <p className="col-12 col-md-10 offset-md-1">I too felt lost, demotivated and frightened and decided to reach out for help from other spiritual coaches. Some taught me a lot and made me confident to stand tall and embrace the Grace that was coming upon me but it was only after I came across teachers looking exclusively for money, who let me drown on my despair dragging me into endless sessions which were not supporting me the way I needed. Having experienced that, I now work to genuinely help my clients so they gain the knowledge and confidence to walk on their own.</p>
                         </div>
@@ -69,7 +69,7 @@ export default function Despertar() {
 
                             <p>Another experience was in my 20s when a stranger man approached me and told me that God had a message for me: "I'm always with you, in every moment. When you hide at night by the river to cry, I'm also there with you. Like Job everything has been taken from you, like Job you shall be honored"</p>
 
-                            <p>Until that moment I had never spoken to anyone about going to the river near my family's house to cry...I am so glad the message was sent to me and gave the strength I would need to overcome many difficult situations that were still to come.</p>
+                            <p>Until that moment I had never spoken to anyone about going to the river near my family's house to cry...I am so glad the message was sent to me and gave me the strength I would need to overcome many difficult situations that were still to come.</p>
 
                         </div>
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import '../styles/Blog.css';
 
-import blog1 from '../assets/img-blog.jpg';
+import blog1 from '../assets/ego.jpg';
 import calendar from '../assets/calendar.png';
 import folder from '../assets/folder.png';
 import sobre from '../assets/sobre.png';
@@ -29,12 +29,14 @@ export default function Blog() {
                     <div className="col-12 col-md-8">
                         <div className="box-blog">
                             <div className="blog-image">
-                                <Link to="/posts/spiritual-awakening-&-ego-death"><img src={blog1} alt="" /></Link>
+                                <Link to="/pt/posts/despertar-espiritual-e-morte-do-ego">
+                                    <img src={blog1} style={{ width: '100%' }} alt="" />
+                                </Link>
                             </div>
 
                             <div className="row d-flex align-items-center">
                                 <div className="col-12 col-md-8">
-                                    <span className="blog-title">Spiritual Awakening & Ego death</span>
+                                    <span className="blog-title">Despertar Espiritual e morte do Ego</span>
                                 </div>
 
                                 <div className="col-12 col-md-4 text-right">
@@ -43,9 +45,9 @@ export default function Blog() {
                                 </div>
                             </div>
 
-                            <p>Thinking about your little self, the separated one that you created when you were around 07-09 years old, the "little Me". After identifying to that character who has a name, an address, plays specific sport at Scholl and has a toy that he/she loves, that little you (Ego) has grow out of control and now rules the real you!</p>
+                            <p>Pensando sobre o seu pequeno “Eu”, aquele que esta separado e foi criado quando você tinha entre 7 e 9 anos. Depois de se identificar com aquele personagem que tem um nome, um endereco, faz algum esporte na escola e tem um brinquedo que adora, aquele pequeno “Eu” (Ego) cresceu fora de controle e agora comanda o seu “Eu real”.</p>
 
-                            <Link to="/posts/spiritual-awakening-&-ego-death" className="button-blog">
+                            <Link to="/pt/posts/despertar-espiritual-e-morte-do-ego" className="button-blog">
                                 Continue Lendo <img src={iconBlog} alt="" />
                             </Link>
                         </div>
@@ -67,12 +69,12 @@ export default function Blog() {
                             </form>
 
                             <div className="posts">
-                                <h2>Categories</h2>
+                                <h2>Categorias</h2>
 
-                                <Link Link to="/en/posts/spiritual-awakening-&-ego-death">
+                                <Link Link to="/pt/posts/despertar-espiritual-e-morte-do-ego">
                                     • Artigos
                                 </Link>
-                                <Link Link to="/en/posts/spiritual-awakening-&-ego-death">
+                                <Link Link to="/pt/posts/despertar-espiritual-e-morte-do-ego">
                                     • Vídeos
                                 </Link>
                             </div>
@@ -94,7 +96,7 @@ export default function Blog() {
                             <div className="posts">
                                 <h2>Posts Recentes</h2>
 
-                                <a href="#">• Spiritual Awakening & Ego death</a>
+                                <a href="#">• Despertar Espiritual e morte do Ego</a>
                             </div>
 
                             <h3 style={{ fontSize: 26, border: 'none', padding: 0, marginBottom: 20 }}>Inscreva-se para receber minhas últimas atualizações</h3>

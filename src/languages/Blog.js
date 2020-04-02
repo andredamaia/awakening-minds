@@ -29,7 +29,7 @@ export default function Blog() {
                     <div className="col-12 col-md-8">
                         <div className="box-blog">
                             <div className="blog-image">
-                                <Link to="/en/posts/spiritual-awakening-&-ego-death"><img src={blog1} alt="" /></Link>
+                                <Link to="/posts/spiritual-awakening-&-ego-death"><img src={blog1} alt="" /></Link>
                             </div>
 
                             <div className="row d-flex align-items-center">
@@ -45,7 +45,7 @@ export default function Blog() {
 
                             <p>Thinking about your little self, the separated one that you created when you were around 07-09 years old, the "little Me". After identifying to that character who has a name, an address, plays specific sport at Scholl and has a toy that he/she loves, that little you (Ego) has grow out of control and now rules the real you!</p>
 
-                            <Link to="/en/posts/spiritual-awakening-&-ego-death" className="button-blog">
+                            <Link to="/posts/spiritual-awakening-&-ego-death" className="button-blog">
                                 Read more <img src={iconBlog} alt="" />
                             </Link>
                         </div>
@@ -69,10 +69,10 @@ export default function Blog() {
                             <div className="posts">
                                 <h2>Categories</h2>
 
-                                <Link Link to="/en/posts/spiritual-awakening-&-ego-death">
+                                <Link to="/posts/spiritual-awakening-&-ego-death">
                                     • Articles
                                 </Link>
-                                <Link Link to="/en/posts/spiritual-awakening-&-ego-death">
+                                <Link to="/posts/spiritual-awakening-&-ego-death">
                                     • Videos
                                 </Link>
                             </div>
@@ -81,20 +81,20 @@ export default function Blog() {
                                 <h2>Tags</h2>
 
                                 <a href="/">kundalini</a>
-                                <a href="/">pnl</a>
-                                <a href="/">hipnoterapia</a>
-                                <a href="/">deixar ir</a>
+                                <a href="/">npl</a>
+                                <a href="/">hypnotherapy</a>
+                                <a href="/">letting go</a>
                                 <a href="/">coaching</a>
-                                <a href="/">despertar</a>
+                                <a href="/">awakening</a>
                                 <a href="/">videos</a>
-                                <a href="/">artigos</a>
-                                <a href="/">técnicas</a>
+                                <a href="/">articles</a>
+                                <a href="/">techniques</a>
                             </div>
 
                             <div className="posts">
                                 <h2>Recent posts</h2>
 
-                                <Link Link to="/en/posts/spiritual-awakening-&-ego-death">
+                                <Link to="/posts/spiritual-awakening-&-ego-death">
                                     • Spiritual Awakening & Ego death
                                 </Link>
                             </div>

@@ -11,7 +11,7 @@ export default function MenuHolder() {
     function usePageViews() {
         useEffect(() => {
             const url = location.pathname;
-            const checkLangUrl = url.includes("/en");
+            const checkLangUrl = url.includes("/pt");
 
             if(checkLangUrl) {
               setLang(true);
@@ -22,7 +22,7 @@ export default function MenuHolder() {
     usePageViews();
     return (
         <>
-            { lang ? <MenuEN /> : <Menu /> }
+            { lang ? <Menu /> : <MenuEN /> }
         </>
     );
 }
