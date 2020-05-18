@@ -46,7 +46,7 @@ export default function Home() {
 
               <p>Se você está lendo esta página, parabéns, você está pronto para mudar! Enquanto muitos não sabem o seu real potencial e desperdiçam as chances que a vida lhes dá para viver plenamente, você provou que acredita e isso já é suficiente para iniciar sua transformação. Se em vez de passar meses ou anos fazendo terapia sem saber ao certo os benefícios que isso lhe trará, se sua intenção é obter resultados reais em curto período de tempo, você está no lugar certo!</p>
 
-              <p>E se você pudesse curar todo seu passado, perdoar e ser perdoado por tudo que já aconteceu? O que aconteceria se você pudesse deixar os hábitos que não te beneficiam e programar outros que suportam seus sonhos? Como você se sentiria ao transformar sua auto imagem, na qual se vê como do milagre que é, confiante, inteligente e um ser que merece amor incondicional? Você quer ser sua melhor versão, não quer? </p>
+              <p>E se você pudesse curar todo seu passado, perdoar e ser perdoado por tudo que já aconteceu? O que aconteceria se você pudesse deixar os hábitos que não te beneficiam e programar outros que suportam seus sonhos? Como você se sentiria ao transformar sua auto imagem, na qual se vê como o milagre que é, confiante, inteligente e um ser que merece amor incondicional? Você quer ser sua melhor versão, não quer? </p>
 
               <p>Estou aqui para te ajudar lado a lado a aprender a  viver uma <strong>vida feliz!</strong></p>
 

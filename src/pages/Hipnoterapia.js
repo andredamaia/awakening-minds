@@ -55,7 +55,7 @@ export default function Hipnoterapia() {
                             <p>Vamos dizer que, enquanto criança, você foi constantemente negligenciado por seus pais, aquele seu pequeno desenho foi subjugado ou menosprezado, não sendo considerado bom o suficiente; que você sempre ouviu que não era inteligente porque não conseguia terminar suas tarefas de matemática sozinho (mesmo sendo muito bom em biologia). Na escola você sofreu bullying e seus professores estavam sempre te lembrando o quão lento você era, ou o quão atrasado em comparação aos seus colegas. Com este julgamento, sua caixa será preenchida apenas com crenças limitantes sobre você mesmo</p>
 
                             <div className="col-12 text-right">
-                                <span className="text-red"><i>que irão criar fortes limites imaginários determinando o que<br/>
+                                <span className="text-red"><i>que irão criar fortes limites imaginários determinando o que <br/>
                                 você é capaz ou não de alcançar na vida.</i></span>
                             </div>
                         </div>

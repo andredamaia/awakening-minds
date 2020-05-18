@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import '../styles/Blog.css';
 
-import blog1 from '../assets/img-blog.jpg';
+import blog1 from '../assets/ego.jpg';
 import calendar from '../assets/calendar.png';
 import folder from '../assets/folder.png';
 import sobre from '../assets/sobre.png';
@@ -29,7 +29,9 @@ export default function Blog() {
                     <div className="col-12 col-md-8">
                         <div className="box-blog">
                             <div className="blog-image">
-                                <Link to="/posts/spiritual-awakening-&-ego-death"><img src={blog1} alt="" /></Link>
+                                <Link to="/posts/spiritual-awakening-&-ego-death">
+                                    <img src={blog1} style={{ maxWidth: '100%' }} alt="" />
+                                </Link>
                             </div>
 
                             <div className="row d-flex align-items-center">

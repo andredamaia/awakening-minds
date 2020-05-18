@@ -65,7 +65,7 @@ export default function Coaching() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h2 style={{ marginBottom: 40, textTransform: 'uppercase' }}>And if you could design the life of your dreams, how would it look like? Who would you like to become?</h2>
+              <h2 style={{ marginBottom: 40, textTransform: 'uppercase' }}>And if you could design the life of your dreams, What would it look like? Who would you like to become?</h2>
 
               <p>My coaching is for you if you:</p>
 
@@ -79,7 +79,7 @@ export default function Coaching() {
 
               <p>From stop snoozing your alarm in the morning to healing from a broken heart; from being able to stand in front of people for a public speech to leaving the 9am to 5pm job that you hate and open your own business. From becoming a better leader to improving your love life. Do you want to set up Goals and believe they are not only achievable but have already been achieved? Anything is possible, and if you believe YOU CAN I'm here to help you!</p>
 
-              <p>While most of Life Coaches will try to change behaviors directly even knowing that they come from Conditioning, my way to change is working in the core of one's inner reality where all the emotions, beliefs, values and limitations are. Knowing that perception is projection we aim to align the inner World so the outer World follows the change.</p>
+              <p>While most Life Coaches will try to change behaviors directly even knowing that they come from Conditioning, my way to change is working in the core of one's inner reality where all the emotions, beliefs, values and limitations are. Knowing that perception is projection we aim to align the inner World so the outer World follows the change.</p>
 
               <p><strong>Living life in a positive and joyful way is your right so step up and start changing NOW!</strong></p>
             </div>

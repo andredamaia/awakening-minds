@@ -52,7 +52,7 @@ export default function Hipnoterapia() {
 
                             <p>That “little box” which is your subconscious mind containing all the things you believe to be You, will now project itself out and make sure that every thought you have, every word you say and every action you take brings more similar impressions to reinforce the current operating programming, regardless if they are beneficial or not for you. It is like you are inside a maze unable to get out walking in circles, always returning back to the starting point.</p>
 
-                            <p>Let’s say for instance when growing up you were constantly neglect by one or both of your parents, that little drawing you made was diminished and classified as poor, not good enough; that you were told that you are not smart as you can’t finish your maths home work alone (even though you were quite good at biology). At Scholl you got bullied and your teachers would remind you often how slow you are and how behind you are compared to your colleagues. In this regard your box will be fulfilled with a limiting belief about your self- worth</p>
+                            <p>Let’s say for instance when growing up you were constantly neglect by one or both of your parents, that little drawing you made was diminished and classified as poor, not good enough; that you were told that you are not smart as you can’t finish your maths home work alone (even though you were quite good at biology). At School you got bullied and your teachers would remind you often how slow you are and how behind you are compared to your colleagues. In this regard your box will be fulfilled with a limiting belief about your self- worth</p>
 
                             <div className="col-12 text-right">
                                 <span className="text-red"><i>which then will create strong imaginary boundaries determining what you can or can NOT achieve in life.</i></span>
@@ -94,7 +94,7 @@ export default function Hipnoterapia() {
                         </div>
 
                         <div className="col-12 col-md-8 before-red-box">
-                            <p>Hypnotherapy can be used to treat stress, cigarettes addiction, improve relationships, increase self-steam, help create financial abundance through self worth and an I can do it attitude. It is also beneficial to create a healthier life style, weight loss, desire to exercise. It radically improves public speaking and also treats anger, shame, guilt and regret- heavy emotions which usually are a burden to carry through life.</p>
+                            <p>Hypnotherapy can be used to treat stress, cigarettes addiction, improve relationships, increase self-esteem, help create financial abundance through self worth and an I can do it attitude. It is also beneficial to create a healthier life style, weight loss, desire to exercise. It radically improves public speaking and also treats anger, shame, guilt and regret- heavy emotions which usually are a burden to carry through life.</p>
                         </div>
 
                         <div className="col-12 d-md-none">

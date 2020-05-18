@@ -33,7 +33,7 @@ export default function Despertar() {
                         <div className="col-12 col-md-10 offset-md-1">
                             <h2>Do you want to truly connect with your higher self and live a life fulfilled with love, abundance and joy?</h2>
 
-                            <p>Most of us, without knowing we deserve and are capable of achieving more, settle for a life that may feel incomplete where we just live day after day hopping that somehow things will get better and we will eventually find happiness.</p>    
+                            <p>Most of us, without knowing we deserve and are capable of achieving more, settle for a life that may feel incomplete where we just live day after day hoping that somehow things will get better and we will eventually find happiness.</p>    
 
                             <p>What If I told you that you can be happy right now? That in this very moment you can connect to who you really are and in that place of connection there is no sense of lacking, unworthiness or pain.</p> 
                         </div>
@@ -98,7 +98,7 @@ export default function Despertar() {
                         </div>
 
                         <div className="col-12 col-md-7">
-                            <p>	Although the path guides ultimately to freedom and unconditional love, there is a phase where we are expanding and embodying this higher power so there is so much changing within us during a Spiritual Awakening. We start shedding away old patters and beliefs, our emotions are all over the place and we are experiencing physical symptoms which can be quite hard to manage, specially if we need to make a living and act "normal" around people.</p>
+                            <p>	Although the path guides ultimately to freedom and unconditional love, there is a phase where we are expanding and embodying this higher power so there is so much changing within us during a Spiritual Awakening. We start shedding away old patters and beliefs, our emotions are all over the place and we are experiencing physical symptoms which can be quite hard to manage, especially if we need to make a living and act "normal" around people.</p>
 
                             <p><strong>Below are some of the most common Physical Symptoms I have noticed and learned how to treat:</strong></p>
                         </div>

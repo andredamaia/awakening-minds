@@ -129,7 +129,9 @@ export default function Contato() {
                         </div>
 
                         <div className="col-12 col-md-3 text-center">
-                            <img src={ig} style={{ maxWidth: '100%' }} alt="" />
+                            <a href="https://www.instagram.com/andressa_mokesinski/" target="_blank" rel="noopener noreferrer">
+                                <img src={ig} style={{ maxWidth: '100%' }} alt="" />
+                            </a>
                         </div>
 
                         <div className="col-12 text-center copyright-holder">

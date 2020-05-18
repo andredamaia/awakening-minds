@@ -10,9 +10,10 @@ header {
     height: 130px;
 }
 
+header .col-md-3 img { max-width: 100%; }
+
 header ul {
     position: relative;
-    background: #ffffff;
     text-align: right;
     margin-top: 15px;
   }  
@@ -51,6 +52,12 @@ header ul {
     }
 
     header li:hover .list-dropdown { display: block; }
+
+    @media (max-width: 1600px){
+      header li a {
+        font-size: 16px !important;
+      }
+    }
 
 
 .logo img {

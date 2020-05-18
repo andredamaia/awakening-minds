@@ -87,14 +87,7 @@ function Header(){
                                     </ul>
                                 </li>
 
-                                <li>
-                                    <Link 
-                                        to="/pt/blog"
-                                        className={ location.pathname === '/pt/blog' ? "active" : "" }
-                                    >
-                                        Blog
-                                    </Link>
-                                </li>
+                                <li><a href="https://andressa-awakeningminds.com/blog/&lang=pt">Blog</a></li>
 
                                 <li>
                                     <Link 

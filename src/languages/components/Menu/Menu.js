@@ -25,7 +25,7 @@ export default function Hambuger() {
                 <li><Link to="/life-coaching">Life coaching</Link></li>
                 <li><Link to="/spiritual-awakening">Spiritual Awakening</Link></li>
                 <li style={{ marginBottom: 10 }}><Link to="/kundalini">Kundalini</Link></li>
-                <li><Link to="/blog">Blog</Link></li>
+                <li><a href="https://andressa-awakeningminds.com/blog/&lang=en">Blog</a></li>
                 <li><Link to="/contact">Contact</Link></li>
             </ul>
         </Menu>

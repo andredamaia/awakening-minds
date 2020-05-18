@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import '../styles/Blog.css';
 
-import blog1 from '../assets/img-blog.jpg';
+import blog1 from '../assets/ego.jpg';
 import calendar from '../assets/calendar.png';
 import folder from '../assets/folder.png';
 
@@ -25,7 +25,7 @@ export default function BlogPost() {
 
                         <div className="col-12 col-md-8 offset-md-2">
                             <div className="box-blog">
-                                <img src={blog1} style={{ marginBottom: 40 }} alt="" />
+                                <img src={blog1} style={{ marginBottom: 40, maxWidth: '100%' }} alt="" />
 
                                 <div className="row d-flex align-items-center" style={{ marginBottom: 40 }}>
                                     <div className="col-12 text-center">

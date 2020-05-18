@@ -1,5 +1,6 @@
 import React, { lazy, useEffect, useState } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 import Header from './languages/components/Header/Header';
 import Footer from './languages/components/Footer/Footer';
@@ -11,9 +12,9 @@ const DeixarIr = lazy(() => import('./pages/DeixarIr'));
 const LifeCoaching = lazy(() => import('./pages/LifeCoaching'));
 const Despertar = lazy(() => import('./pages/Despertar'));
 const Kundalini = lazy(() => import('./pages/Kundalini'));
+// const Blog = lazy(() => import('./pages/Blog'));
+// const BlogPost = lazy(() => import('./pages/BlogPost'));
 const Contato = lazy(() => import('./pages/Contato'));
-const Blog = lazy(() => import('./pages/Blog'));
-const BlogPost = lazy(() => import('./pages/BlogPost'));
 
 const AppEN = lazy(() => import('./languages/App'));
 const HomeEN = lazy(() => import('./languages/Home'));
@@ -23,9 +24,12 @@ const DeixarIrEN = lazy(() => import('./languages/DeixarIr'));
 const LifeCoachingEN = lazy(() => import('./languages/LifeCoaching'));
 const DespertarEN = lazy(() => import('./languages/Despertar'));
 const KundaliniEN = lazy(() => import('./languages/Kundalini'));
-const BlogEN = lazy(() => import('./languages/Blog'));
-const BlogPostEN = lazy(() => import('./languages/BlogPost'));
+// const BlogEN = lazy(() => import('./languages/Blog'));
+// const BlogPostEN = lazy(() => import('./languages/BlogPost'));
 const ContatoEN = lazy(() => import('./languages/Contato'));
+
+const trackingId = "UA-162540529-1"; 
+ReactGA.initialize(trackingId);
 
 
 function App() {
@@ -45,6 +49,14 @@ function App() {
 
     usePageViews();
 
+    useEffect(() => {
+      
+        ReactGA.set({ page: location.pathname });
+        ReactGA.pageview(window.location.pathname + window.location.search);
+      
+    }, [location]);
+
+
   return(
     <>
       { lang ? '' : <Header /> }
@@ -57,8 +69,8 @@ function App() {
         <Route path="life-coaching" element={<LifeCoachingEN />} />
         <Route path="spiritual-awakening" element={<DespertarEN />} />
         <Route path="kundalini" element={<KundaliniEN />} />
-        <Route path="blog" element={<BlogEN />} />
-        <Route path="posts/:slug" element={<BlogPostEN />} />
+        {/* <Route path="blog" element={<BlogEN />} /> */}
+        {/* <Route path="posts/:slug" element={<BlogPostEN />} /> */}
         <Route path="/contact" element={<ContatoEN />} />
       </Routes>
 
@@ -71,8 +83,8 @@ function App() {
           <Route path="/life-coaching" element={<LifeCoaching />} />
           <Route path="/despertar-espiritual" element={<Despertar />} />
           <Route path="/kundalini" element={<Kundalini />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/posts/:slug" element={<BlogPost />} />
+          {/* <Route path="/blog" element={<Blog />} /> */}
+          {/* <Route path="/posts/:slug" element={<BlogPost />} /> */}
           <Route path="/contato" element={<Contato />} />
         </Route>
       </Routes>
