@@ -62,7 +62,7 @@ export default function Deixair() {
                         </div>
 
                         <div className="col-12 text-center">
-                            <h3 style={{ border: 'none' }}>Would you like to release a lifetime of emotional burden in only one session, wouldn't you? </h3>
+                            <h3 style={{ border: 'none' }}>You would you like to release a lifetime of emotional burden in only one session, wouldn't you? </h3>
 
                             <p>Imagine the physical and emotional relief and the well being feeling after healing your entire past! Utilizing the Time Paradigm technique we eliminate completely any negative emotion linked to all memories of events up till the present moment. This means a complete shift of the individual conditioning to an extreme positive level which will support the person to focus on what he/she wants to build and not the other way round, also improving professional and personal relationships due a more optimistic way of looking at life.</p>
                         </div>

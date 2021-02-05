@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import $ from 'jquery';
+import { FaWhatsapp } from "react-icons/fa";
 
 import './styles.css';
 
@@ -29,7 +30,7 @@ function Footer() {
     const [phone, setPhone] = useState('');
     const [message, setMessage] = useState('');
 
-    const lang = 'EN';
+    const lang = 'en';
 
     function handleFormSubmit(e) {
         e.preventDefault();
@@ -45,7 +46,7 @@ function Footer() {
         $('.button-mailing').html('Sending your message... <i class="fas fa-spinner fa-spin"></i>')
 
         $.ajax({
-            url:'https://andressa-awakeningminds.com/mail/envia.php',
+            url:'https://andressa-awakeningminds.com/mail/enviar.php',
             type:'POST',
             data:data,
             success:function(data){
@@ -65,26 +66,37 @@ function Footer() {
 
     return(
         <>
+            <a 
+                href="https://wa.me/971552586276" 
+                style={{ position:'fixed', width: 60, height: 60, bottom: 30, right: 30, background: '#25d366', color:'#fff', borderRadius: 50, textAlign: 'center', fontSize: 30, boxShadow: '1px 1px 2px #888', zIndex: 3000 }} 
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <FaWhatsapp style={{ marginTop: 8 }} />
+            </a>
+
             <div className={ location.pathname === '/contact' ? "d-none" : "bg-contato" }>
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 contato">
+                        <div className="col-12 order-2 order-md-1 contato">
                             <h2>Contact</h2>
                         </div>
 
-                        <div className="col-12 col-md-3 endereco">
-                            
-                        <span className="title">Address in Dubai</span>
+                        <div className="col-12 col-md-3 order-3 order-md-1 endereco">
+                            <span className="title">Address in Dubai</span>
                             <p>Dubai Marina - Dubai<br/> United Arab Emirates.</p>
 
                             <span className="title">Address in Brazil</span>
                             <p>Trindade - Florianópolis,<br/> Santa Catarina<br/> Brasil</p>
 
                             <span className="title">Telephone:</span>
-                            <p>+971 55 2586276</p>
+                            <p>
+                                <a href="https://api.whatsapp.com/send?phone=971552586276" rel="noopener noreferrer" class="link-whats" target="_blank">+971 55 2586276</a> <br />
+                                <a href="https://api.whatsapp.com/send?phone=5541997230507" rel="noopener noreferrer" class="link-whats" target="_blank">+55 41 997230507</a>
+                            </p>
                         </div>
 
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-md-6 order-4 order-md-3">
                             <form onSubmit={handleFormSubmit}>
                                 <div className="input-block">
                                     <input 
@@ -134,32 +146,29 @@ function Footer() {
                             </form>
                         </div>
 
-                        {/* <div className="col-12 col-md-3">
-                            <div>
-                                <div>
-                                    <span className="depoimento">Eu encontrei a minha melhor versão depois do tratamento, me sentindo mais completo e saudável.</span>
+                        <div className="col-12 col-md-3 order-1 order-md-4">
+                            <iframe 
+                                src="https://andressa-awakeningminds.com/depoimentos/en.php" 
+                                width="100%" 
+                                title="Depoimentos"
+                                height="700" 
+                                frameBorder="0"
+                            ></iframe>
+                        </div>
 
-                                    <span className="author">
-                                        <strong>Fulano de tal</strong>
-                                        Cargo
-                                    </span>
-                                </div>
-                            </div>
-                        </div> */}
-
-                        <div className="col-12 col-md-3 text-center">
+                        {/* <div className="col-12 col-md-3 text-center">
                             <a href="https://www.instagram.com/andressa_mokesinski/" target="_blank" rel="noopener noreferrer">
                                 <img src={ig} style={{ maxWidth: '100%' }} alt="" />
                             </a>
-                        </div>
+                        </div> */}
 
-                        <div className="col-12 text-center copyright-holder">
+                        <div className="col-12 order-5 text-center copyright-holder">
                             <a href="https://www.facebook.com/andressaawakeningminds/" target="_blank" rel="noopener noreferrer"><img src={iconfacebook} alt="" /></a>
                             <a href="https://www.instagram.com/andressa_mokesinski/" target="_blank" rel="noopener noreferrer"><img src={iconinstagram} alt="" /></a>
                             <a href="https://api.whatsapp.com/send?phone=+971552586276" target="_blank" rel="noopener noreferrer"><img src={iconwhats} alt="" /></a>
 
                             <p className="copyright">
-                                @ 2020 Awakening Minds. All rights reserved. Terms and condictions. Privacy Policy.</p>
+                                @ 2020 Awakening Minds. All rights reserved.</p>
                         </div>
                     </div>
                 </div>

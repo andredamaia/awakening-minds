@@ -15,7 +15,7 @@ export default function Contato() {
     const [phone, setPhone] = useState('');
     const [message, setMessage] = useState('');
 
-    const lang = 'PT';
+    const lang = 'pt';
 
     function handleFormSubmit(e) {
         e.preventDefault();
@@ -31,7 +31,7 @@ export default function Contato() {
         $('.button-mailing').html('Enviando sua mensagem... <i class="fas fa-spinner fa-spin"></i>')
 
         $.ajax({
-            url:'https://andressa-awakeningminds.com/mail/envia.php',
+            url:'https://andressa-awakeningminds.com/mail/enviar.php',
             type:'POST',
             data:data,
             success:function(data){
@@ -75,7 +75,10 @@ export default function Contato() {
                             <p>Trindade - Florianópolis,<br/> Santa Catarina<br/> Brasil</p>
 
                             <span className="title">Telefone</span>
-                            <p>+971 55 2586276</p>
+                            <p>
+                                <a href="https://api.whatsapp.com/send?phone=971552586276" rel="noopener noreferrer" class="link-whats" target="_blank">+971 55 2586276</a> <br />
+                                <a href="https://api.whatsapp.com/send?phone=5541997230507" rel="noopener noreferrer" class="link-whats" target="_blank">+55 41 997230507</a>
+                            </p>
                         </div>
 
                         <div className="col-12 col-md-6">

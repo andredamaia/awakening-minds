@@ -1,6 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
+import OnlineSessions from './components/OnlineSessions/OnlineSessions';
+
 import emotions from '../assets/emotions.png';
 import flower from '../assets/flower.png';
 import yinyang from '../assets/yin-yang.png';
@@ -14,14 +16,14 @@ export default function Home() {
     <>
         <Helmet>
             <title>Awakening Minds</title>
-            <meta name="description" content="Hello my fellow Human Beings, welcome to my website!" />
+            <meta name="description" content="Change your life NOW! Online Sessions of Hypnosis, NLP and Life & Spiritual Coaching" />
         </Helmet>
 
         <div className="bg-sobre">
           <div className="container-fluid">
             <div className="row">
               <div className="col-12 col-md-6">
-                <h2 className="special">About Andressa Mokesinki</h2>
+                <h2 className="special">About Andressa Mokesinski</h2>
 
                 <img src={andressa} className="img-left" alt="" />
 
@@ -126,6 +128,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <OnlineSessions />
     </>
   );
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
+import OnlineSessions from '../components/OnlineSessions/OnlineSessions';
+
 import emotions from '../assets/emotions.png';
 import flower from '../assets/flower.png';
 import yinyang from '../assets/yin-yang.png';
@@ -15,14 +17,14 @@ export default function Home() {
     <>
         <Helmet>
             <title>Awakening Minds</title>
-            <meta name="description" content="Olá meu querido Ser Humano, seja bem-vindo ao meu website!" />
+            <meta name="description" content="Mude sua vida AGORA! Sessões online de Hipnose, PNL e Life & Espiritual Coaching" />
         </Helmet>
         
         <div className="bg-sobre">
           <div className="container-fluid">
             <div className="row">
               <div className="col-12 col-md-6">
-                <h2 className="special">Sobre Andressa Mokesinki</h2>
+                <h2 className="special">Sobre Andressa Mokesinski</h2>
 
                 <img src={andressa} className="img-left" alt="" />
 
@@ -115,16 +117,18 @@ export default function Home() {
                     <div className="row">
                       <div className="col-12 col-md-3">
                         <h2>Missão</h2>
-                    </div>
+                      </div>
 
-                    <div className="col-12 col-md-9">
-                        <p><i>Awakening Minds Emotional Health  & Coaching</i> tem a missão de expandir o nível de consciência das pessoas, impactando positivamente suas vidas para que encontrem um caminho onde a <strong>felicidade seja o estado mais natural de viver.</strong></p>
-                    </div>
+                      <div className="col-12 col-md-9">
+                        <p><i>Awakening Minds Emotional Health & Coaching</i> tem a missão de expandir o nível de consciência das pessoas, impactando positivamente suas vidas para que encontrem um caminho onde a <strong>felicidade seja o estado mais natural de viver.</strong></p>
+                      </div>
                     </div>
                   </div>
               </div>
           </div>
       </div>
+
+      <OnlineSessions />
     </>
   );
 }
