@@ -214,7 +214,6 @@ h3 {
     }
     header img { max-width: 80%; }
 
-    .bg-sobre,
     .hip-blue,
     .bg-brain,
     .bg-beach,
@@ -430,6 +429,20 @@ h3 {
     .interna.bg-new { margin-top: 130px; }
 
     .bg-new-interna { display: none; }
+
+    .andressa-terapia ul li { margin-bottom: 15px;}
+
+    .indicacoes ul li { font-size: 18px !important;}
+
+    .indicacoes { padding: 20px; margin-top: 20px;}
+
+    .andressa-sobre { padding: 30px 0;}
+
+    .bg-dubai { padding: 30px 0;}
+
+    .andressa-terapia { padding: 30px 0;}
+
+    .andressa-terapia h2 { margin-top: 30px;}
 
 @media (max-width: 961px) {
     header .col-md-9 { display: none !important; }

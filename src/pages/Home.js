@@ -9,6 +9,7 @@ import flower from '../assets/flower.png';
 import yinyang from '../assets/yin-yang.png';
 import andressa from '../assets/andressa.png';
 import faces from '../assets/faces.png';
+import checkindicacoes from '../assets/check-indicacoes.png';
 
 import '../styles/Home.css';
 
@@ -19,6 +20,102 @@ export default function Home() {
             <title>Awakening Minds</title>
             <meta name="description" content="Mude sua vida AGORA! Sessões online de Hipnose, PNL e Life & Espiritual Coaching" />
         </Helmet>
+
+        <div className="andressa-sobre">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-3"></div>
+
+              <div className="col-12 col-md-9">
+                <div className="row">
+                  <div className="col-12 col-md-6">
+                    <h2>Andressa Mokesinski</h2>
+
+                    <ul>
+                      <li>Terapia Cognitiva Comportamental</li>
+                      <li>Reprogramação Mental</li>
+                      <li>Cura Emocional</li>
+                      <li>Life Coaching</li>
+                      <li>Parcerias Corporativas: Convênios,<br/> Palestras e Workshops</li>
+                      <li>Atendimentos Online & Presencial</li>
+                    </ul>
+
+                    <h4 className="special-blue">Técnicas exclusivas e inovadoras que proporcionam resultados reais e imediatos </h4>
+                  </div>
+
+                  <div className="col-12 col-md-6">
+                    <div className="indicacoes">
+                      <h4>Indicações</h4>
+
+                      <ul>
+                        <li><img src={checkindicacoes} alt="" /> Ansiedade</li>
+                        <li><img src={checkindicacoes} alt="" /> Depressão</li>
+                        <li><img src={checkindicacoes} alt="" /> Vicios</li>
+                        <li><img src={checkindicacoes} alt="" /> Traumas</li>
+                        <li><img src={checkindicacoes} alt="" /> Medos e Fobias</li>
+                        <li><img src={checkindicacoes} alt="" /> Desenvolvimento Pessoal </li>
+                        <li><img src={checkindicacoes} alt="" /> Desenvolvimento Profissional</li>
+                        <li><img src={checkindicacoes} alt="" /> Relacionamentos</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-dubai">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-6 offset-md-1">
+                <h2>Conheça o poder do Time Paradigm, a minha técnica trazida de Dubai e exclusiva no Brasil</h2>
+
+                <p>200 vezes mais eficaz que a Hipnose clássica e sem necessidade de trance induzido, com o Time Paradigm acessamos diretamente a causa raiz do problema a nível de Subconsciente e o substituimos por padrões que vão te ajudar a construír o que deseja e a começar a viver uma vida Feliz.</p>
+
+                <p>O Time Paradigm possibilita mudança de um Padrão Mental, seus comportamentos e sentimentos em poucos minutos, como se o mesmo nunca houvesse existido!</p>
+
+                <p>Você pode literalmente ir de Tímido à Extrovertido, de Inseguro à Auto-confiante, de desorganizado à Focado, de Insensivel à Romântico, ou o que você deseja </p>
+
+                <h4>Com clientes ao redor do Mundo, independente da sua localização ou do seu problema, aqui no Awakening Minds – Saúde Emocional & Coaching você muda de  verdade!</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="andressa-terapia">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-4 offset-md-1">
+                <h2>Cansado de fazer Terapia e não ver resultados?</h2>
+
+                <div className="box-red">
+                  <p>Com meu Programa Inovador, o Breaking-through que consiste em 16 horas de Terapia Intensiva + Coaching você:</p>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-6 offset-md-1">
+                <ul>
+                  <li>Libera emoções negativas reprimidas sem sofrimento</li>
+
+                  <li>Elimina Ansiedade e pensamentos negativos</li>
+
+                  <li>Se livra de Traumas, Medos e Fobias</li>
+
+                  <li>Desenvolve sua Autoestima e Poder Pessoal</li>
+
+                  <li>Resolve conflitos internos para tomada de decisões importantes</li>
+
+                  <li>Reprograma Padrões negativos e crenças que estão te limitando a atingir níveis elevados de contentamento, felicidade e abundância financeira ou mesmo de conquistar e viver relacionamentos saudáveis</li>
+
+                  <li>Adiciona suas metas como memórias futuras no seu Subconsciente e diz bye, bye para a procrastinação, preguiça e desculpas</li>
+                </ul>
+
+                <h2>Vem mudar comigo!</h2>
+              </div>
+            </div>
+          </div>
+        </div>
         
         <div className="bg-sobre">
           <div className="container-fluid">
@@ -40,9 +137,9 @@ export default function Home() {
             </div>
 
             <div className="col-12 col-md-6">
-              <h3 className="add-top">Seja bem-vindo!</h3>
+              {/* <h3 className="add-top">Seja bem-vindo!</h3>
 
-              <p><strong>Olá meu querido Ser Humano, seja bem-vindo ao meu website! </strong></p>
+              <p><strong>Olá meu querido Ser Humano, seja bem-vindo ao meu website! </strong></p> */}
 
               <img src={faces} className="img-right" alt="" />
 
@@ -67,7 +164,7 @@ export default function Home() {
             <div className="col-12 col-md-10 offset-md-1 text-center">
               <h3>Quais são as técnicas de intervenção emocional?</h3>
 
-              <p>A ciência sugere que <strong>95% do comportamento humano</strong> deriva do subconsciente e que <strong>apenas 5%</strong> é escolhido conscientemente, assim a importância da <strong><Link to="/hipnoterapia">Hipnose</Link>, <Link to="/pnl">PNL</Link> e da técnica <Link to="/deixar-ir">Deixar ir</Link></strong> para acessar e redefinir padrões gravados e projetados inconscientemente.  Através da <strong><Link to="/hipnoterapia">Hipnoterapia</Link></strong>, padrões negativos comportamentais são rapidamente substituidos por sugestões positivas, permitindo que o cliente obtenha considerável melhoria na área a ser desenvolvida.</p>
+              <p>A ciência sugere que <strong>95% do comportamento humano</strong> deriva do subconsciente e que <strong>apenas 5%</strong> é escolhido conscientemente, assim a importância da <strong><Link to="/hipnoterapia">Hipnose</Link>, <Link to="/pnl">PNL</Link>, Time Paradigm</strong> e da técnica <strong><Link to="/deixar-ir">Deixar ir</Link></strong> para acessar e redefinir padrões gravados e projetados inconscientemente.  Através do <strong>Time Paradigm</strong>, padrões negativos comportamentais são rapidamente substituidos por sugestões positivas, permitindo que o cliente obtenha rápida transformação na área a ser desenvolvida.</p>
 
               <p>Seja através de técnicas de <strong><Link to="/coaching">Intervenção Emocional ou do Coaching</Link></strong>,  para desenvolvimento pessoal ou profissional, todas as sessões são detalhadamente preparadas de acordo com as necessidades do cliente. Meu objetivo como Coach é eliminar crenças limitantes e guiar meus clientes ao <strong>autoconhecimento e inteligência emocional</strong>, onde possam resgatar seu poder pessoal e manifestar a vida que tanto desejam.</p>
             </div>

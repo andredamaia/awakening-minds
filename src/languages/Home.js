@@ -8,6 +8,7 @@ import flower from '../assets/flower.png';
 import yinyang from '../assets/yin-yang.png';
 import andressa from '../assets/andressa.png';
 import faces from '../assets/faces.png';
+import checkindicacoes from '../assets/check-indicacoes.png';
 
 import '../styles/Home.css';
 
@@ -18,6 +19,104 @@ export default function Home() {
             <title>Awakening Minds</title>
             <meta name="description" content="Change your life NOW! Online Sessions of Hypnosis, NLP and Life & Spiritual Coaching" />
         </Helmet>
+
+        <div className="andressa-sobre">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-3"></div>
+
+              <div className="col-12 col-md-9">
+                <div className="row">
+                  <div className="col-12 col-md-6">
+                    <h2>Andressa Mokesinski</h2>
+
+                    <ul>
+                      <li>Cognitive Behavioral Therapy</li>
+                      <li>Belief System and patterns Reprogramming</li>
+                      <li>Emotional Healing</li>
+                      <li>Life Coaching</li>
+                      <li>Corporate partnerships, Lectures and Workshops</li>
+                      <li>Virtual & in-Person Services</li>
+                    </ul>
+
+                    <h4 className="special-blue">Unique techniques which allow Real & Immediate Results</h4>
+                  </div>
+
+                  <div className="col-12 col-md-6">
+                    <div className="indicacoes">
+                      <h4>Indications</h4>
+
+                      <ul>
+                        <li><img src={checkindicacoes} alt="" /> Anxiety</li>
+                        <li><img src={checkindicacoes} alt="" /> Depression</li>
+                        <li><img src={checkindicacoes} alt="" /> Grief</li>
+                        <li><img src={checkindicacoes} alt="" /> Anger</li>
+                        <li><img src={checkindicacoes} alt="" /> Self-Esteem</li>
+                        <li><img src={checkindicacoes} alt="" /> Addictions</li>
+                        <li><img src={checkindicacoes} alt="" /> Trauma, Fears & Phobias</li>
+                        <li><img src={checkindicacoes} alt="" /> Personal Development & Career</li>
+                        <li><img src={checkindicacoes} alt="" /> Relationships</li>
+                        <li><img src={checkindicacoes} alt="" /> Couples Therapy</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-dubai">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-6 offset-md-1">
+                <h2>Find out the power of Time Paradigm, my exclusive technique from Dubai</h2>
+
+                <p>200 times more effective than the classic Hypnosis and without the need of induced trance. With Time Paradigm we can directly access the root cause of the problem at the Subconscious level and replace it with new patterns that will help you achieve what you desire and start living a Happy Life.</p>
+
+                <p>With Time Paradigm, a Mental Pattern, it’s behaviors and feelings are changed in a few minutes, like the pattern has never existed!</p>
+
+                <p>You can literally go from being shy to becoming an extroverted, from insecure to self-confident, from disorganized to laser-like focus, from insensible to a real romantic, or whatever you desire to be, within minutes!</p>
+
+                <h4>With clients all over the World, no matter your location or problem, here you really change! </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="andressa-terapia">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-4 offset-md-1">
+                <h2>Tired of going for Therapy without seeing results?</h2>
+
+                <div className="box-red">
+                  <p>With my innovative Program called Breaking-through which consists of 16 hours of Intensive Therapy + Coaching you:</p>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-6 offset-md-1">
+                <ul>
+                  <li>Release suppressed negative emotions without suffering</li>
+
+                  <li>Heal Anxiety and negative thinking</li>
+
+                  <li>Get rid of Trauma, Fears and Phobias </li>
+
+                  <li>Develop unshakeable Self-esteem and Personal Power </li>
+
+                  <li>Resolve internal conflicts to support you making important decisions </li>
+
+                  <li>Replace Negative patterns and limiting beliefs with positive ones so you can achieve what you want and increase your levels of contentment, joy and financial abundance or even find and live healthy relationships </li>
+
+                  <li>Wire your goals as Future Memories in your Subconscious Mind and say goodbye to procrastination, laziness and excuses</li>
+                </ul>
+
+                <h2>Come and change with me!</h2>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div className="bg-sobre">
           <div className="container-fluid">
@@ -41,9 +140,9 @@ export default function Home() {
             </div>
 
             <div className="col-12 col-md-6">
-              <h3 className="add-top">Welcome!</h3>
+              {/* <h3 className="add-top">Welcome!</h3>
 
-              <p><strong>Hello my fellow Human Beings, welcome to my website!</strong></p>
+              <p><strong>Hello my fellow Human Beings, welcome to my website!</strong></p> */}
 
               <img src={faces} className="img-right" alt="" />
 
@@ -68,7 +167,7 @@ export default function Home() {
             <div className="col-12 col-md-10 offset-md-1 text-center">
               <h3>What are the Emotional Intervention techniques?</h3>
 
-              <p>Science suggests that <strong>95% of human behavior</strong> comes from our Subconscious mind and <strong>only 5%</strong> is shaped consciously, thus the importance of <strong>Hypnosis, NLP and the Letting Go</strong> Technique to access and reset patterns recorded and projected unconsciously. Through the <strong>Hypnotherapy</strong>, negative behavioral programming is quickly replaced by positive suggestions that allow the patient to obtain significative results in the area to be developed.</p>
+              <p>Science suggests that <strong>95%</strong> of human behavior comes from our <strong>Subconscious</strong> mind and <strong>only 5%</strong> is shaped consciously, thus the importance of <strong>Hypnosis, NLP, Time Paradigm</strong> and the <strong>Letting Go</strong> Technique to access and reset patterns recorded and projected unconsciously. Through the <strong>Time Paradigm</strong>, negative behavioral programming is quickly replaced by positive suggestions that allow the client to obtain a rapid transformation in the aspects to be improved.</p>
 
               <p>Whether through <strong>Emotional Intervention or Coaching</strong>, for personal or professional development, all sessions are customized in details to match the client's needs. My goal as a Coach is to eliminate limiting beliefs and guide my clients to <strong>self knowledge and Emotional intelligence</strong> where they can regain their inner power and manifest the life they desire.</p>
             </div>
